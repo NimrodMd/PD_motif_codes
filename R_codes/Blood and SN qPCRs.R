@@ -10,7 +10,7 @@ dir<-function(x) paste0(c(getwd(),x),collapse='/') ; dir('')
 brn_qpcr<-read.csv(dir('Excels/brains_brn_qpcrs.csv'))
 brn_qpcr$dif<-brn_qpcr$mtfBr_avg-brn_qpcr$mt_avg
 
-brn_qpcr$exp_mtf<-0 ; brn_qpcr$exp_mt<-0 ; brn_qpcr$exp_chp<-0
+brn_qpcr$exp_chp<-0
 for(i in 1:nrow(brn_qpcr)){
   brn_qpcr$exp_chp[i]<-2^(brn_qpcr$dif[i]-mean(subset(brn_qpcr$dif,brn_qpcr$sex==brn_qpcr$sex[i] & brn_qpcr$group=='Cont')))
 }
