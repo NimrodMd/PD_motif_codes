@@ -54,7 +54,7 @@ ColData$ADPD<-ColData$ID %in% ADPD
 ToRemove1<-c('SRR1568665','SRR1568516','SRR1568612','SRR1568554','SRR1568520','SRR1568402','SRR1568626','SRR1568616','SRR1568556',
              'SRR1568527','SRR1568441','SRR1568593','SRR1568452','SRR1568726','SRR1568546','SRR1568552') ; p<-ToRemove1
 ToRemove1<-append(ToRemove1,as.character(subset(ColData$ID,ColData$group=='Ctrl' & (ColData$AD_score>5 | ColData$sn_depigmentation=='Moderate'))))
-ColData$keep_trf<-!ColData$ID %in% ToRemove1 ; ColData$keep_mir<-!ColData$ID %in% ToRemove1
+ColData$keep_trf<-!ColData$ID %in% ToRemove1 
 
 t_cold<-subset(ColData,ColData$keep_trf) ; cold1<-subset(t_cold,!t_cold$ADPD & t_cold$age>60)
 
@@ -80,12 +80,11 @@ tmp<-tmp[,c("ID","group","age","sex","sn_depigmentation","LewyBody_Stage","Plaqu
 # write.csv(tmp,dir('excluded CSF patients.csv'))
 
 # Read CPM counts table:
-cpm_trfs<-read.csv(dir('tRNA_Exclusive_Combined_data_RPM.csv')); 
-rownames(cpm_trfs)<-cpm_trfs$X; cpm_trfs<-cpm_trfs[,-1] ; colnames(cpm_trfs)<-gsub('_dbGaP.28067','',colnames(cpm_trfs))
+cpm_trfs<-read.csv(dir('trf_counts_simulated.csv')); rownames(cpm_trfs)<-cpm_trfs$X; cpm_trfs<-cpm_trfs[,-1] ; cpm_trfs<-as.data.frame(cpm(cpm_trfs))
 cpm_trfs<-cpm_trfs[rowMedians(as.matrix(cpm_trfs[,colnames(cpm_trfs) %in% subset(ColData$ID,ColData$biofluid=='CSF')]))>10,]
 
 # Read tRF counts table:
-trfs<-read.csv(dir('tRNA_Exclusive_Combined_data.csv')); 
+trfs<-read.csv(dir('trf_counts_simulated.csv')); 
 rownames(trfs)<-trfs$X; trfs<-trfs[,-1] ; colnames(trfs)<-gsub('_dbGaP.28067','',colnames(trfs))
 trfs<-trfs[rownames(cpm_trfs),]
 
@@ -93,7 +92,7 @@ trfs<-trfs[rownames(cpm_trfs),]
 tmp<-data.frame(ID=colnames(trfs),sum=colSums(trfs)) ; cold1<-merge(cold1,tmp,by='ID') ; cold1<-subset(cold1,cold1$sum>10000)
 
 # Read and process tRFs metadata:
-meta_trfs<-read.csv(dir('tRF_meta.csv')); rownames(meta_trfs)<-meta_trfs$X; meta_trfs<-meta_trfs[,-1]; meta_trfs<-meta_trfs[rownames(trfs),]
+meta_trfs<-read.csv(dir('tRF_meta_simulated.csv')); rownames(meta_trfs)<-meta_trfs$X; meta_trfs<-meta_trfs[,-1]; meta_trfs<-meta_trfs[rownames(trfs),]
 meta_trfs$len<-unlist(lapply(meta_trfs$MINTbase.Unique.ID, function(x) strsplit(as.character(x),'-')[[1]][2]))
 meta_trfs$trna<-unlist(lapply(meta_trfs$Sequence.locations.in.tRNA.space..comma.deliminated., function(x) substr(strsplit(as.character(x),'_')[[1]][2],1,3)))
 colnames(meta_trfs)<-gsub('Sequence.locations.in.tRNA.space..comma.deliminated.','details',colnames(meta_trfs))
