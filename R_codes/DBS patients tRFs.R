@@ -1,8 +1,8 @@
 library(ggplot2); library(ggfortify); library(dplyr); library(matrixStats)
 
 ndf<-function(x) as.data.frame(t(data.frame(row.names = c(x)))) ; I<-function(x,y) x %in% y
-dirin<-function(x) paste0('C:/Users/nmisr/OneDrive/lab/ADPD/1. PD SGs tRFs/Excels/',x)
-dirout<-function(x) paste0('C:/Users/nmisr/OneDrive/lab/ADPD/1. PD SGs tRFs/SVGs & PNGs/',x)
+dirin<-function(x) paste0(getwd(),x)
+dirout<-function(x) paste0(getwd(),x)
 
 DBS_data<-read.csv(dirin('PPMI_data.2.csv')) ; 
 colnames(DBS_data)<-gsub('Type_of_surgery_for_Parkinson_disease_term','DBS',colnames(DBS_data))
