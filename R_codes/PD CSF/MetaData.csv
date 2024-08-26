@@ -1,0 +1,204 @@
+ID,group,sex,biofluid,ApoE_status,age,DiseaseDuration,PostMortemInterval,PlaqueF,PlaqueT,PlaqueP,PlaqueH,PlaqueE,PlaqueTotal,PlaqueDensity,TangleF,TangleT,TangleP,TangleH,TangleE,TangleTotal,BraakScore,NIA_ReaganScore,LewyBody_Stage,sn_depigmentation,BioSample,SUBJECT_ID,dbGaP_Subject_ID,dbGaP_Sample_ID,SAMPLE_ID
+SRR1568362,Ctrl,Male,CSF,3;3,36,NA,3,2.8,2.3,2.5,0.5,2.5,10.6,zero,0,0.5,0,2,2.5,5,III,criteria not met,No Lewy bodies,none,SAMN02803287,00_23,985399,1274859,00_23_CSF
+SRR1568364,Ctrl,Male,CSF,3;3,52,NA,3,0,0,0,0,0,0,zero,0,0.25,0,1,1.5,2.75,II,criteria not met,No Lewy bodies,none,SAMN02803641,00_27,985400,1274861,00_27_CSF
+SRR1568366,AD,Female,CSF,3;3,60,8,2,3,3,2.5,2,3,13.5,frequent,3,3,3,2.5,3,14.5,V,high,,mild,SAMN02803319,00_45,985401,1274863,00_45_CSF
+SRR1568368,Ctrl,Female,CSF,3;3,56,NA,1.5,3,2.5,2.5,0,2.25,10.25,zero,0,0,0,0.5,0.5,1,I,criteria not met,No Lewy bodies,none,SAMN02803659,01_16,985402,1274865,01_16_CSF
+SRR1568370,AD,Female,CSF,3;4,58,7,3,3,3,3,1.5,2.75,13.25,frequent,3,3,3,3,3,15,V,high,No Lewy bodies,none,SAMN02803580,01_18,985403,1274867,01_18_CSF
+SRR1568372,AD,Female,CSF,3;4,64,6,2.5,3,3,3,2.5,2,13.5,frequent,2.5,3,2.5,2.5,3,13.5,V,high,No Lewy bodies,mild,SAMN02803635,01_19,985404,1274869,01_19_CSF
+SRR1568374,Ctrl,Male,CSF,3;3,67,NA,2.25,1.5,2,2,0,2.75,8.25,zero,0,0,0,1.5,2,3.5,III,criteria not met,No Lewy bodies,none,SAMN02803496,01_24,985405,1274871,01_24_CSF
+SRR1568376,AD,Male,CSF,3;4,64,10,3,3,3,3,2,3,14,frequent,3,3,3,3,3,15,V,high,No Lewy bodies,none,SAMN02803304,01_27,985406,1274873,01_27_CSF
+SRR1568378,AD,Female,CSF,3;3,70,5,2.83,3,3,3,3,3,15,frequent,1.5,2.5,2.5,3,3,12.5,V,high,No Lewy bodies,mild,SAMN02803294,01_29,985407,1274875,01_29_CSF
+SRR1568380,Ctrl,Male,CSF,3;4,70,NA,2.5,0,0,0,0,0,0,sparse,0,1,0,3,3,7,IV,criteria not met,No Lewy bodies,none,SAMN02803243,01_37,985408,1274877,01_37_CSF
+SRR1568382,AD,Female,CSF,3;4,71,4,4,2.5,3,3,1.5,1.75,11.75,frequent,1,2,1.5,3,3,10.5,VI,high,No Lewy bodies,none,SAMN02803329,01_42,985409,1274879,01_42_CSF
+SRR1568384,PD,Male,CSF,3;3,71,20,3.5,2.5,3,3,2,2.75,13.25,zero,0,0,0,2,1.25,3.25,II,criteria not met,Limbic type,severe,SAMN02803633,01_44,985410,1274881,01_44_CSF
+SRR1568386,PD,Male,CSF,3;3,73,4,2.5,1.5,2,1.5,1,1.5,7.5,zero,0,0.5,0,3,3,6.5,III,criteria not met,Neocortical type,severe,SAMN02803301,01_46,985411,1274883,01_46_CSF
+SRR1568388,Ctrl,Female,CSF,4;4,73,NA,2.75,2.5,2,3,0,1.25,8.75,sparse,0,0,0,0,0,0,0,criteria not met,No Lewy bodies,none,SAMN02803636,01_48,985412,1274885,01_48_CSF
+SRR1568389,AD,Female,CSF,3;3,73,2,4.5,2.5,2.5,2.5,1.5,1.75,10.75,frequent,0,0.5,0,2,2.5,5,IV,intermediate,No Lewy bodies,none,SAMN02803590,01_49,985413,1274887,01_49_CSF
+SRR1568391,Ctrl,Male,CSF,3;3,69,NA,1.5,1,2,1,0,2,6,zero,0,0,0,0.5,0.5,1,I,criteria not met,No Lewy bodies,none,SAMN02803539,02_01,985414,1274889,02_01_CSF
+SRR1568391,PD,Male,CSF,3;3,69,23,4.5,0.25,0,0,0,0,0.25,moderate,0,0.5,0,1.5,1.5,3.5,III,low,Limbic type,severe,SAMN02803539,02_01,985414,1274889,02_01_CSF
+SRR1568393,PD,Male,CSF,2;4,71,1,6,0,1.75,1,0,0,2.75,moderate,1,2.5,2,2,2.25,9.75,IV,intermediate,Limbic type,severe,SAMN02803522,02_04,985415,1274891,02_04_CSF
+SRR1568395,PD,Male,CSF,3;3,69,6,2,3,2.75,3,2,2,12.75,zero,1,1,1,2.5,3,8.5,IV,criteria not met,Limbic type,severe,SAMN02803478,02_05,985416,1274893,02_05_CSF
+SRR1568397,PD,Male,CSF,3;4,75,9,3,3,3,2.5,1,3,12.5,frequent,0,1,0,1.5,2.5,5,III,intermediate,Limbic type,severe,SAMN02803587,02_07,985417,1274895,02_07_CSF
+SRR1568398,Ctrl,Female,CSF,3;4,73,NA,4,0.7,0,0.5,0,1,2.2,zero,0,0,0,0,0.5,0.5,I,criteria not met,No Lewy bodies,none,SAMN02803260,02_10,985418,1274897,02_10_CSF
+SRR1568400,PD,Male,CSF,3;4,74,10,3.33,2,2,2.5,1,2.25,9.75,moderate,1.5,1.5,1,2.5,3,9.5,III,criteria not met,Neocortical type,severe,SAMN02803336,02_15,985419,1274899,02_15_CSF
+SRR1568402,Ctrl,Male,CSF,2;3,70,NA,2.5,1.5,1.5,1.5,0,0,4.5,sparse,0,0,0,0.5,0.5,1,I,criteria not met,No Lewy bodies,none,SAMN02803498,02_17,985420,1274901,02_17_CSF
+SRR1568404,PD,Male,CSF,2;3,76,25,2.25,1.25,1,2.5,0,0,4.75,moderate,0,0,0,0.5,1,1.5,I,criteria not met,Limbic type,severe,SAMN02803655,02_33,985421,1274903,02_33_CSF
+SRR1568406,PD,Male,CSF,3;3,71,4,2,3,2.75,3,1.5,2.75,13,zero,0,0,0,2.5,3,5.5,IV,not AD,Limbic type,severe,SAMN02803575,02_39,985422,1274905,02_39_CSF
+SRR1568408,PD,Female,CSF,3;4,72,6,3.5,1,1.5,2.5,0,0,5,sparse,0,0,0,1,2,3,II,criteria not met,LB pathology unspecified or not further assessed,moderate,SAMN02803537,03_02,985423,1274907,03_02_CSF
+SRR1568410,Ctrl,Male,CSF,3;3,76,NA,2.5,0,0,0,0,0,0,zero,0,0.25,0,0.5,0.5,1.25,II,criteria not met,No Lewy bodies,none,SAMN02803278,03_07,985424,1274909,03_07_CSF
+SRR1568412,AD,Female,CSF,3;4,72,1,2.5,3,2.5,3,2,2,12.5,frequent,3,3,3,3,3,15,VI,high,No Lewy bodies,severe,SAMN02803431,03_08,985425,1274911,03_08_CSF
+SRR1568413,PD,Male,CSF,3;3,71,NA,3.55,3,3,3,2,2.5,13.5,zero,0,0.25,0,2,2,4.25,III,intermediate,Neocortical type,mild,SAMN02803342,03_10,985426,1274913,03_10_CSF
+SRR1568415,AD,Female,CSF,3;4,73,3,2,2.5,2.5,3,1.75,1.5,11.25,frequent,3,3,3,3,3,15,VI,high,No Lewy bodies,mild,SAMN02803291,03_12,985427,1274915,03_12_CSF
+SRR1568417,AD,Female,CSF,2;4,71,10,3.25,3,3,3,2,2.5,13.5,frequent,3,3,3,2.75,3,14.75,VI,high,No Lewy bodies,severe,SAMN02803405,03_15,985428,1274917,03_15_CSF
+SRR1568418,PD,Male,CSF,2;3,76,NA,3.5,0,0,0,0,0,0,zero,0.5,0,0,1,1,2.5,I,intermediate,Neocortical type,severe,SAMN02803507,03_16,985429,1274919,03_16_CSF
+SRR1568420,AD,Male,CSF,3;4,77,3,3,2.5,2.5,3,3,3,14,frequent,3,3,3,3,3,15,VI,high,No Lewy bodies,none,SAMN02803647,03_18,985430,1274921,03_18_CSF
+SRR1568422,AD,Male,CSF,3;3,76,8,2.83,3,3,3,3,3,15,frequent,1.5,1.5,1.5,0,0.5,5,V,high,No Lewy bodies,severe,SAMN02803517,03_21,985431,1274923,03_21_CSF
+SRR1568424,AD,Male,CSF,3;3,78,8,3.25,3,3,3,2,3,14,frequent,3,3,3,3,3,15,VI,high,No Lewy bodies,mild,SAMN02803346,03_22,985432,1274925,03_22_CSF
+SRR1568426,Ctrl,Male,CSF,3;3,76,NA,2.25,3,3,3,2,3,14,frequent,0,1,0,1,2.5,4.5,III,criteria not met,No Lewy bodies,moderate,SAMN02803240,03_25,985433,1274927,03_25_CSF
+SRR1568428,Ctrl,Female,CSF,3;4,78,NA,3,0,0.25,0,0,0,0.25,zero,0,0,0,1.5,2.5,4,III,criteria not met,No Lewy bodies,none,SAMN02803454,03_28,985434,1274929,03_28_CSF
+SRR1568430,PD,Male,CSF,2;3,76,30,2.33,0,0,0,0,0,0,zero,0,0,0,1.5,1.75,3.25,III,criteria not met,Brainstem predominant type,mild,SAMN02803578,03_29,985435,1274931,03_29_CSF
+SRR1568432,PD,Male,CSF,3;4,78,12,1.83,0,0,0,0,0,0,moderate,0,1,0,2.5,3,6.5,IV,criteria not met,Brainstem predominant type,,SAMN02803409,03_30,985436,1274933,03_30_CSF
+SRR1568434,PD,Male,CSF,3;3,73,12,3.5,2.75,2.25,2.5,1.5,2.25,11.25,zero,0,0.5,0,3,3,6.5,III,criteria not met,Limbic type,severe,SAMN02803589,03_33,985437,1274935,03_33_CSF
+SRR1568436,AD,Male,CSF,3;4,73,15,1.83,3,3,3,2.5,3,14.5,frequent,2.66,3,3,3,3,14.66,VI,high,No Lewy bodies,severe,SAMN02803437,03_34,985438,1274937,03_34_CSF
+SRR1568438,AD,Female,CSF,3;3,74,14,3.5,3,2.5,3,2.25,2.75,13.5,frequent,1,2,1,3,3,10,IV,intermediate,,moderate,SAMN02803600,03_35,985439,1274939,03_35_CSF
+SRR1568440,PD,Male,CSF,3;4,75,9,3,2,1.75,2.5,0,0.75,7,moderate,0,0,0,3,2.5,5.5,III,low,Limbic type,severe,SAMN02803570,03_38,985440,1274941,03_38_CSF
+SRR1568441,PD,Male,CSF,3;3,73,27,3,0,0,0,0,0,0,frequent,0,0,0,0.25,0.75,1,II,intermediate,Neocortical type,severe,SAMN02803531,03_39,985441,1274943,03_39_CSF
+SRR1568443,PD,Male,CSF,3;3,78,11,2.5,3,3,3,2.5,3,14.5,zero,1,0.5,0.5,0.5,2,4.5,III,low,Limbic type,moderate,SAMN02803269,03_51,985442,1274945,03_51_CSF
+SRR1568445,Ctrl,Male,CSF,3;4,74,NA,7,0,0,0,0,0,0,sparse,0,0.5,0,2.25,2.5,5.25,III,criteria not met,No Lewy bodies,none,SAMN02803428,03_54,985443,1274947,03_54_CSF
+SRR1568447,AD,Male,CSF,4;4,71,1,2.5,2.2,3,2.5,1,0,8.7,frequent,0,0,0,1,1,2,II,low,No Lewy bodies,none,SAMN02803354,03_58,985444,1274949,03_58_CSF
+SRR1568450,Ctrl,Female,CSF,3;4,75,NA,4.5,0.75,1.5,0.5,0,1,3.75,zero,0,1,0,1.5,2.5,5,III,criteria not met,No Lewy bodies,none,SAMN02803242,04_15,985446,1274953,04_15_CSF
+SRR1568452,AD,Male,CSF,3;4,78,5,2.25,2.75,2.5,3,2.5,2.75,13.5,frequent,3,3,3,3,3,15,VI,high,No Lewy bodies,none,SAMN02803341,04_17,985447,1274955,04_17_CSF
+SRR1568454,PD,Male,CSF,3;4,77,17,4,3,3,3,0,1.75,10.75,moderate,0,0.5,0,1.5,2.25,4.25,III,criteria not met,Limbic type,severe,SAMN02803540,04_22,985448,1274957,04_22_CSF
+SRR1568456,Ctrl,Female,CSF,3;3,73,NA,2,1.75,2,2.5,1.5,1.5,9.25,moderate,0,0.5,0,1,2,3.5,II,criteria not met,No Lewy bodies,none,SAMN02803558,04_24,985449,1274959,04_24_CSF
+SRR1568457,PD,Male,CSF,3;3,80,13,2,3,3,3,1,2.25,12.25,sparse,0,0.25,0,2,2,4.25,III,criteria not met,Brainstem predominant type,none,SAMN02803381,04_27,985450,1274961,04_27_CSF
+SRR1568459,AD,Male,CSF,3;4,80,5,3,3,3,3,3,3,15,moderate,0,0.5,0,3,3,6.5,IV,intermediate,No Lewy bodies,moderate,SAMN02803335,04_30,985451,1274963,04_30_CSF
+SRR1568461,PD,Female,CSF,3;3,75,18,7.16,0,0,0,0,0,0,frequent,0.5,0,0,0,0,0.5,0,criteria not met,Limbic type,severe,SAMN02803259,04_31,985452,1274965,04_31_CSF
+SRR1568463,AD,Female,CSF,3;4,80,1,2.66,2.8,3,3,1.5,3,13.3,moderate,1,2,1.5,1.5,2.75,8.75,V,high,No Lewy bodies,moderate,SAMN02803586,04_38,985453,1274967,04_38_CSF
+SRR1568465,PD,Female,CSF,3;3,76,29,2.16,0.25,0.5,0.5,0,0,1.25,zero,0,0.5,0,2.5,2.5,5.5,IV,intermediate,Limbic type,severe,SAMN02803504,04_42,985454,1274969,04_42_CSF
+SRR1568467,PD,Male,CSF,3;3,75,0,2.66,1.5,1,1.5,0,0.75,4.75,zero,0,0,0,2,3,6,III,criteria not met,LB pathology unspecified or not further assessed,severe,SAMN02803262,04_54,985455,1274971,04_54_CSF
+SRR1568469,Ctrl,Female,CSF,2;3,81,1,3,0,0,0,0,0,0,moderate,0,0.75,0,0.25,0.75,1.75,II,criteria not met,No Lewy bodies,none,SAMN02803644,04_62,985456,1274973,04_62_CSF
+SRR1568471,PD,Female,CSF,3;3,80,18,10,2.5,2.5,3,1.25,1.75,11,sparse,0,0,0,0.5,1.5,2,II,low,Limbic type,severe,SAMN02803253,05_07,985457,1274975,05_07_CSF
+SRR1568474,PD,Female,CSF,3;3,79,11,10.5,2.5,2,2.5,1,2,10,zero,0,0,0,1,2.25,3.25,III,not AD,Limbic type,severe,SAMN02803462,05_11,985459,1274979,05_11_CSF
+SRR1568476,Ctrl,Male,CSF,3;4,79,1,2,1.5,1.5,2,0,1.25,6.25,moderate,0,0,0,2.5,2.5,5,IV,criteria not met,No Lewy bodies,none,SAMN02803545,05_16,985461,1274983,05_16_CSF
+SRR1568478,Ctrl,Male,CSF,3;3,81,NA,2.33,2,3,3,1.5,2.5,12,zero,0,0,0,1.5,1,2.5,III,criteria not met,No Lewy bodies,none,SAMN02803535,05_17,985462,1274985,05_17_CSF
+SRR1568480,Ctrl,Male,CSF,3;3,76,5,1.5,3,2.5,2.5,2,1.75,11.75,zero,0,0.25,0,1.5,2.5,4.25,III,criteria not met,No Lewy bodies,mild,SAMN02803658,05_19,985463,1274987,05_19_CSF
+SRR1568482,AD,Female,CSF,3;4,76,17,3.5,3,3,3,3,3,15,frequent,1,1.75,2.5,3,3,11.25,V,high,No Lewy bodies,severe,SAMN02803373,05_20,985464,1274989,05_20_CSF
+SRR1568484,AD,Male,CSF,3;4,77,9,2.5,3,3,3,3,3,15,frequent,3,3,0,3,3,12,IV,intermediate,No Lewy bodies,none,SAMN02803332,05_21,985465,1274991,05_21_CSF
+SRR1568486,AD,Female,CSF,3;3,75,10,2.75,3,3,2.5,3,3,14.5,moderate,1,2,1,3,3,10,IV,intermediate,No Lewy bodies,mild,SAMN02803555,05_26,985466,1274993,05_26_CSF
+SRR1568488,AD,Male,CSF,3;4,80,5,2.5,2.75,2.5,3,2.5,2.5,13.25,frequent,3,3,3,3,3,15,V,high,No Lewy bodies,mild,SAMN02803645,05_39,985467,1274995,05_39_CSF
+SRR1568489,Ctrl,Female,CSF,3;3,77,NA,3.33,1.5,1,2.5,0,1.5,6.5,moderate,0,0,0,2,2.5,4.5,IV,criteria not met,No Lewy bodies,none,SAMN02803457,05_52,985468,1274997,05_52_CSF
+SRR1568491,PD,Female,CSF,3;3,82,7,2.5,2,1.5,1.5,0,1.25,6.25,sparse,0,0.5,0,0.5,2,3,III,intermediate,Neocortical type,severe,SAMN02803387,06_05,985469,1274999,06_05_CSF
+SRR1568493,PD,Female,CSF,3;4,77,4,2,2,2.5,2.5,2,2.5,11.5,moderate,0,0,0,0.25,0.25,0.5,I,intermediate,Limbic type,severe,SAMN02803252,06_08,985470,1275001,06_08_CSF
+SRR1568495,AD,Female,CSF,3;4,80,21,3,3,3,3,3,2.25,14.25,frequent,2.5,3,3,3,3,14.5,VI,high,No Lewy bodies,mild,SAMN02803383,06_12,985471,1275003,06_12_CSF
+SRR1568497,Ctrl,Male,CSF,3;3,76,NA,3,1,2,1,1,1.5,6.5,zero,0,0.5,0,3,3,6.5,IV,criteria not met,No Lewy bodies,mild,SAMN02803300,06_15,985473,1275007,06_15_CSF
+SRR1568499,PD,Male,CSF,3;3,78,9,2.16,0.5,1,0.5,0,0,2,moderate,0.5,0,1,2,1,4.5,I,criteria not met,Neocortical type,severe,SAMN02803625,06_19,985474,1275009,06_19_CSF
+SRR1568501,PD,Male,CSF,2;3,76,18,2.66,0,0,0,0,0,0,zero,0,0.5,0,3,3,6.5,IV,intermediate,Neocortical type,severe,SAMN02803348,06_21,985475,1275011,06_21_CSF
+SRR1568503,PD,Female,CSF,3;3,81,0,2,2.5,2,2.5,1,0,8,sparse,0,0.25,0,0,2,2.25,II,intermediate,Neocortical type,severe,SAMN02803468,06_23,985476,1275013,06_23_CSF
+SRR1568505,PD,Female,CSF,3;3,80,14,3,0,0.5,0.5,0,0,1,moderate,0,0.75,0,2,2,4.75,III,not AD,Brainstem predominant type,moderate,SAMN02803533,06_27,985477,1275015,06_27_CSF
+SRR1568508,AD,Female,CSF,4;4,82,NA,2.5,3,3,3,1.5,1,11.5,frequent,2.5,3,2.5,3,3,14,V,high,No Lewy bodies,mild,SAMN02803525,06_35,985479,1275019,06_35_CSF
+SRR1568510,AD,Male,CSF,3;4,77,9,2,3,3,2,3,3,14,moderate,3,3,3,3,3,15,VI,high,No Lewy bodies,mild,SAMN02803452,06_44,985480,1275021,06_44_CSF
+SRR1568512,PD,Male,CSF,3;4,83,17,8.75,0,0,0,0,0,0,frequent,0.25,1.5,0,2.5,1.75,6,IV,intermediate,Neocortical type,severe,SAMN02803518,06_51,985481,1275023,06_51_CSF
+SRR1568514,Ctrl,Male,CSF,2;2,82,NA,4.83,2.5,2.5,3,0.5,1.5,10,sparse,0,0,0,0,0,0,I,criteria not met,No Lewy bodies,none,SAMN02803568,06_52,985482,1275025,06_52_CSF
+SRR1568516,PD,Male,CSF,3;4,78,16,2.33,0,0,0,0,0,0,moderate,0,0,0,1,2.5,3.5,III,criteria not met,Neocortical type,severe,SAMN02803347,06_55,985483,1275027,06_55_CSF
+SRR1568518,AD,Male,CSF,3;4,79,5,3,3,3,3,3,3,15,frequent,1.6,2.5,1,3,3,11.1,V,high,No Lewy bodies,mild,SAMN02803489,06_62,985484,1275029,06_62_CSF
+SRR1568520,AD,Male,CSF,3;4,77,6,2.5,3,3,3,3,3,15,moderate,3,3,3,3,3,15,VI,high,No Lewy bodies,none,SAMN02803544,06_63,985485,1275031,06_63_CSF
+SRR1568522,Ctrl,Male,CSF,3;3,81,NA,2.5,1.5,2.5,0.5,1,1,6.5,sparse,0,0,0,0,0,0,I,criteria not met,No Lewy bodies,none,SAMN02803339,07_02,985486,1275033,07_02_CSF
+SRR1568524,Ctrl,Male,CSF,3;3,83,NA,2.51,3,3,3,2,2.5,13.5,zero,0,0,0,0,0,0,I,criteria not met,No Lewy bodies,none,SAMN02803267,07_08,985487,1275035,07_08_CSF
+SRR1568526,Ctrl,Female,CSF,3;3,76,NA,3.25,3,3,3,2,3,14,moderate,0,0.5,0,0,1,1.5,I,criteria not met,No Lewy bodies,none,SAMN02803395,07_10,985488,1275037,07_10_CSF
+SRR1568527,PD,Male,CSF,,79,8,4.5,2.5,2.5,3,1,1.75,10.75,sparse,1,1,1,3,3,9,IV,intermediate,Limbic type,severe,SAMN02803396,07_11,985489,1275039,07_11_CSF
+SRR1568529,AD,Male,CSF,3;4,82,12,3,3,3,3,2,2.25,13.25,frequent,3,3,3,3,3,15,VI,high,No Lewy bodies,mild,SAMN02803421,07_20,985490,1275041,07_20_CSF
+SRR1568531,PD,Female,CSF,3;4,78,21,2.25,0,0,0,0,0,0,moderate,0,0.5,0,1,1.5,3,II,criteria not met,Limbic type,severe,SAMN02803611,07_22,985491,1275043,07_22_CSF
+SRR1568533,AD,Male,CSF,3;4,82,5,2,3,3,3,2,2,13,frequent,3,3,3,3,3,15,VI,high,No Lewy bodies,none,SAMN02803607,07_34,985492,1275045,07_34_CSF
+SRR1568535,AD,Female,CSF,3;4,84,3,3.25,2.5,2.5,3,1.5,2.25,11.75,frequent,3,3,3,2.5,3,14.5,V,high,No Lewy bodies,none,SAMN02803338,07_41,985493,1275047,07_41_CSF
+SRR1568537,PD,Female,CSF,3;4,83,20,3.33,2,2,2.5,0.5,2,9,sparse,0,0,0,1.5,0.25,1.75,III,criteria not met,Brainstem predominant type,severe,SAMN02803435,07_42,985494,1275049,07_42_CSF
+SRR1568539,Ctrl,Male,CSF,2;3,80,NA,3,0,0,0,0,0,0,sparse,0,0,0,1,2,3,II,criteria not met,No Lewy bodies,mild,SAMN02803364,07_54,985495,1275051,07_54_CSF
+SRR1568540,PD,Male,CSF,3;3,82,9,4.83,3,3,1.5,2.5,3,13,frequent,0,0.25,0,1.5,3,4.75,III,low,Neocortical type,severe,SAMN02803608,07_57,985496,1275053,07_57_CSF
+SRR1568542,PD,Male,CSF,2;3,84,2,5.16,1,1.5,1.5,0,2,6,zero,0.5,0,0,0.5,1.25,2.25,II,low,Limbic type,severe,SAMN02803648,07_58,985497,1275055,07_58_CSF
+SRR1568544,Ctrl,Male,CSF,3;4,79,NA,3.66,0,0,0,0,0,0,frequent,0.5,1,0,1,1,3.5,II,criteria not met,No Lewy bodies,none,SAMN02803502,07_63,985498,1275057,07_63_CSF
+SRR1568546,AD,Male,CSF,3;4,80,9,4,3,2,3,1,1.75,10.75,frequent,3,3,3,3,3,15,VI,high,No Lewy bodies,mild,SAMN02803316,07_64,985499,1275059,07_64_CSF
+SRR1568548,PD,Female,CSF,3;3,80,2,3.25,1.5,1.5,1.5,1.5,2,8,frequent,0,0,0,0,1,1,I,criteria not met,Limbic type,moderate,SAMN02803514,07_66,985500,1275061,07_66_CSF
+SRR1568550,PD,Female,CSF,4;4,81,4,4,0,1.5,1.5,0,1.5,4.5,moderate,0,0,0,2,1.5,3.5,III,low,Neocortical type,severe,SAMN02803443,07_73,985501,1275063,07_73_CSF
+SRR1568552,Ctrl,Male,CSF,2;3,84,NA,3.15,0,1,0,0,0.5,1.5,zero,0.5,1,0.5,3,3,8,IV,criteria not met,No Lewy bodies,none,SAMN02803630,08_06,985502,1275065,08_06_CSF
+SRR1568554,AD,Female,CSF,3;3,81,9,2.75,3,2.5,1.5,0.5,1,8.5,frequent,3,3,3,3,3,15,VI,high,No Lewy bodies,,SAMN02803566,08_14,985503,1275067,08_14_CSF
+SRR1568556,PD,Female,CSF,3;3,79,23,4,2.5,2.5,2,0,2,9,zero,0,0.25,0,0.25,0.25,0.75,I,criteria not met,Limbic type,severe,SAMN02803402,08_29,985504,1275069,08_29_CSF
+SRR1568558,PD,Female,CSF,3;4,84,21,2.66,0,1,0.5,0,0,1.5,sparse,0,0,0,1.5,1.5,3,III,criteria not met,Limbic type,severe,SAMN02803306,08_32,985505,1275071,08_32_CSF
+SRR1568559,PD,Male,CSF,2;3,83,19,2.5,0,0,0,0,0,0,moderate,0,0,0,2,3,5,IV,criteria not met,Limbic type,severe,SAMN02803617,08_35,985506,1275073,08_35_CSF
+SRR1568561,Ctrl,Male,CSF,3;3,83,NA,3.5,0,0,0,0,0,0,sparse,0,0,0,2,3,5,III,criteria not met,No Lewy bodies,none,SAMN02803427,08_37,985507,1275075,08_37_CSF
+SRR1568563,AD,Male,CSF,3;4,79,12,3.5,2.3,3,3,2.5,2.5,13.3,frequent,3,3,3,3,3,15,VI,high,No Lewy bodies,none,SAMN02803400,08_40,985508,1275077,08_40_CSF
+SRR1568565,AD,Male,CSF,3;4,84,NA,4.5,3,3,3,3,3,15,frequent,3,3,3,3,3,15,VI,high,No Lewy bodies,mild,SAMN02803622,08_45,985509,1275079,08_45_CSF
+SRR1568567,PD,Male,CSF,3;3,86,16,3.5,2.5,2.5,3,1,2.75,11.75,sparse,0,0,0,0.25,1.75,2,II,intermediate,Limbic type,severe,SAMN02803377,08_52,985510,1275081,08_52_CSF
+SRR1568569,AD,Male,CSF,3;4,84,1,3.75,2.5,2.5,2.5,1,3,11.5,moderate,3,3,3,3,3,15,V,high,No Lewy bodies,moderate,SAMN02803446,08_55,985511,1275083,08_55_CSF
+SRR1568571,PD,Female,CSF,3;3,81,23,1.75,0,0,0,0,0,0,sparse,0,0,0,1.5,2,3.5,III,criteria not met,Neocortical type,severe,SAMN02803660,08_65,985512,1275085,08_65_CSF
+SRR1568573,PD,Male,CSF,2;3,82,NA,3.16,1.5,2,1.5,0,2.5,7.5,zero,0,0,0,1.5,2,3.5,III,intermediate,Limbic type,severe,SAMN02803416,08_69,985513,1275087,08_69_CSF
+SRR1568575,PD,Male,CSF,2;3,80,13,4.75,3,3,3,2,3,14,zero,0.5,2,0,3,3,8.5,IV,intermediate,Neocortical type,severe,SAMN02803493,08_70,985514,1275089,08_70_CSF
+SRR1568576,AD,Male,CSF,3;3,86,19,7,2,2,2.5,0,0,6.5,frequent,3,3,3,3,3,15,VI,high,No Lewy bodies,moderate,SAMN02803314,08_74,985515,1275091,08_74_CSF
+SRR1568578,AD,Male,CSF,4;4,81,4,2.16,2.5,2.5,3,1.5,0,9.5,frequent,1.3,1.5,1,2.5,2.5,8.8,V,high,No Lewy bodies,none,SAMN02803640,08_77,985516,1275093,08_77_CSF
+SRR1568581,Ctrl,Male,CSF,3;4,86,NA,2.16,1.5,1.5,2,1,1.5,7.5,zero,0,0,0,0,0,0,I,criteria not met,No Lewy bodies,,SAMN02803349,08_85,985518,1275097,08_85_CSF
+SRR1568583,Ctrl,Female,CSF,2;2,81,NA,2,1.5,2,2,1,1.75,8.25,moderate,0,0,0,0,0.5,0.5,I,criteria not met,No Lewy bodies,mild,SAMN02803467,08_88,985519,1275099,08_88_CSF
+SRR1568585,AD,Male,CSF,3;4,82,10,2.5,3,3,3,1,3,13,frequent,3,3,3,3,3,15,V,high,LB pathology unspecified or not further assessed,none,SAMN02803591,09_14,985520,1275101,09_14_CSF
+SRR1568587,PD,Female,CSF,3;3,85,10,2.83,2.5,2.5,2.5,2,2,11.5,frequent,0,0.5,0,2,3,5.5,IV,criteria not met,Limbic type,severe,SAMN02803563,09_15,985521,1275103,09_15_CSF
+SRR1568589,PD,Male,CSF,,84,18,4.16,0,0,0,0,0,0,zero,0,0,0,0.5,1,1.5,II,low,Limbic type,severe,SAMN02803359,09_20,985522,1275105,09_20_CSF
+SRR1568591,Ctrl,Male,CSF,3;3,83,NA,3,0,0,0,0,0,0,frequent,0,0,0,0,0,0,I,criteria not met,No Lewy bodies,none,SAMN02803583,09_31,985523,1275107,09_31_CSF
+SRR1568593,PD,Female,CSF,3;3,87,22,3,2,1.25,1.5,1,1.25,7,zero,0,0.5,0.5,3,3,7,IV,intermediate,Neocortical type,severe,SAMN02803497,09_35,985524,1275109,09_35_CSF
+SRR1568595,Ctrl,Female,CSF,3;4,81,NA,1.5,0,0,0,0,0,0,frequent,1,3,3,2.25,3,12.25,IV,criteria not met,No Lewy bodies,none,SAMN02803255,09_36,985525,1275111,09_36_CSF
+SRR1568597,AD,Female,CSF,3;3,81,3,2.5,3,3,2.5,2.5,3,14,frequent,2.5,2.75,1,3,3,12.25,V,high,No Lewy bodies,mild,SAMN02803261,09_39,985526,1275113,09_39_CSF
+SRR1568599,PD,Female,CSF,3;3,82,13,3.25,2.5,2,2.5,0,1.75,8.75,zero,0,0.5,0,2.5,2.5,5.5,III,criteria not met,Limbic type,severe,SAMN02803358,09_42,985527,1275115,09_42_CSF
+SRR1568601,Ctrl,Female,CSF,3;3,86,NA,2.5,1,2,0.5,0,2,5.5,frequent,0.5,0.5,1.5,1,2.5,6,III,criteria not met,No Lewy bodies,none,SAMN02803238,09_49,985528,1275117,09_49_CSF
+SRR1568602,PD,Male,CSF,3;3,83,9,5.25,0.5,0,0,0,0,0.5,frequent,0,0.5,0,1,2,3.5,II,criteria not met,Limbic type,severe,SAMN02803597,09_50,985529,1275119,09_50_CSF
+SRR1568604,AD,Female,CSF,3;4,86,5,1.5,1.83,2.5,3,2.5,3,12.83,frequent,1,2.3,2,1,3,9.3,IV,intermediate,No Lewy bodies,,SAMN02803276,09_54,985530,1275121,09_54_CSF
+SRR1568605,Ctrl,Male,CSF,2;3,85,NA,2.5,0,0,0,0,0,0,sparse,0,0,0,0,1,1,II,criteria not met,No Lewy bodies,moderate,SAMN02803273,09_57,985531,1275123,09_57_CSF
+SRR1568607,Ctrl,Male,CSF,2;3,87,3,4.33,3,3,3,2,3,14,moderate,0,0.5,0,0.5,1.5,2.5,II,criteria not met,No Lewy bodies,mild,SAMN02803624,10_04,985532,1275125,10_04_CSF
+SRR1568608,Ctrl,Male,CSF,3;3,82,NA,2.75,0,0,0,0,0,0,frequent,0,0,0,1.5,2.75,4.25,III,criteria not met,No Lewy bodies,moderate,SAMN02803345,10_13,985533,1275127,10_13_CSF
+SRR1568610,AD,Male,CSF,3;3,86,10,2.16,3,3,3,3,3,15,moderate,1,2,1,2.25,2.75,9,IV,intermediate,No Lewy bodies,none,SAMN02803577,10_16,985534,1275129,10_16_CSF
+SRR1568612,AD,Female,CSF,3;4,88,5,2,3,3,3,2.75,3,14.75,moderate,3,3,3,3,3,15,VI,high,LB pathology unspecified or not further assessed,moderate,SAMN02803651,10_22,985535,1275131,10_22_CSF
+SRR1568614,PD,Male,CSF,3;3,82,21,12,0.5,0,1,0,0,1.5,zero,0.5,0.5,0.5,2,3,6.5,IV,intermediate,Neocortical type,severe,SAMN02803290,10_26,985536,1275133,10_26_CSF
+SRR1568616,Ctrl,Male,CSF,,84,NA,2.33,1,1,2.5,0,1,5.5,zero,0,0,0,2,2,4,IV,criteria not met,No Lewy bodies,none,SAMN02803391,10_27,985537,1275135,10_27_CSF
+SRR1568618,Ctrl,Female,CSF,3;4,82,NA,4,0,0,0,0,0,0,moderate,0.3,0,0,3,3,6.3,III,criteria not met,LB pathology unspecified or not further assessed,none,SAMN02803284,10_29,985538,1275137,10_29_CSF
+SRR1568620,AD,Male,CSF,3;3,83,3,2.75,3,3,3,3,3,15,frequent,0,1,0,3,3,7,IV,intermediate,No Lewy bodies,none,SAMN02803434,10_32,985539,1275139,10_32_CSF
+SRR1568622,PD,Female,CSF,3;3,87,7,2,0,0,0,0,0,0,zero,0,0.5,0,1,1.5,3,II,low,Neocortical type,severe,SAMN02803308,10_36,985540,1275141,10_36_CSF
+SRR1568624,PD,Male,CSF,3;3,86,15,4.33,0,0,0,0,0,0,sparse,0,0,0,0.5,1.25,1.75,II,criteria not met,Limbic type,severe,SAMN02803376,10_37,985541,1275143,10_37_CSF
+SRR1568626,AD,Female,CSF,3;4,84,9,2,2.5,2.5,2.5,1,2.5,11,frequent,2,3,3,3,3,14,VI,high,LB pathology unspecified or not further assessed,severe,SAMN02803419,10_39,985542,1275145,10_39_CSF
+SRR1568628,PD,Female,CSF,3;3,88,1,2.66,2.25,2,1.5,0,1,6.75,moderate,0,0.75,0,1.5,1,3.25,II,criteria not met,Limbic type,severe,SAMN02803613,94_31,985543,1275147,94_31_CSF
+SRR1568630,Ctrl,Male,CSF,3;3,87,NA,2.75,1.6,1,2,0,0,4.6,moderate,0.5,2,0,3,3,8.5,IV,criteria not met,No Lewy bodies,mild,SAMN02803523,95_14,985544,1275149,95_14_CSF
+SRR1568632,PD,Female,CSF,3;3,84,0,3.66,1.5,2,2.5,0,0.5,6.5,moderate,0,1.25,0,3,3,7.25,IV,intermediate,Brainstem predominant type,mild,SAMN02803505,95_36,985545,1275151,95_36_CSF
+SRR1568635,AD,Female,CSF,3;4,83,8,4.16,3,3,3,3,3,15,frequent,3,3,3,3,3,15,V,high,No Lewy bodies,mild,SAMN02803365,95_40,985547,1275155,95_40_CSF
+SRR1568638,AD,Female,CSF,3;3,88,5,3.5,3,3,3,3,3,15,frequent,0,0,0,1.5,2,3.5,III,intermediate,LB pathology unspecified or not further assessed,mild,SAMN02803274,96_09,985549,1275159,96_09_CSF
+SRR1568640,AD,Female,CSF,3;4,87,4,2.66,3,3,3,3,3,15,frequent,0,0,0,0,2.5,2.5,II,low,No Lewy bodies,mild,SAMN02803423,96_11,985550,1275161,96_11_CSF
+SRR1568642,PD,Male,CSF,3;3,85,NA,2.66,2.5,2.5,3,0.25,1.25,9.5,moderate,0,1,0,2,3,6,IV,intermediate,Neocortical type,severe,SAMN02803473,96_17,985551,1275163,96_17_CSF
+SRR1568644,Ctrl,Male,CSF,3;3,87,NA,3.75,1.5,2.5,2.5,1.5,2,10,zero,0,0,0,0.5,0.5,1,I,not AD,No Lewy bodies,none,SAMN02803603,96_18,985552,1275165,96_18_CSF
+SRR1568647,AD,Female,CSF,3;4,89,8,4,3,3,3,3,3,15,frequent,0,0,0,1.5,2.5,4,III,intermediate,No Lewy bodies,mild,SAMN02803464,96_29,985554,1275169,96_29_CSF
+SRR1568649,Ctrl,Male,CSF,3;3,89,NA,2.25,3,3,3,1.5,2.5,13,moderate,1,3,2,3,3,12,IV,criteria not met,No Lewy bodies,none,SAMN02803407,96_30,985555,1275171,96_30_CSF
+SRR1568651,PD,Male,CSF,3;3,83,NA,3.66,3,2.75,3,1.5,2,12.25,moderate,0,0,0,1.5,2.25,3.75,III,intermediate,Neocortical type,severe,SAMN02803422,96_31,985556,1275173,96_31_CSF
+SRR1568653,AD,Male,CSF,3;3,84,7,2,2.6,3,3,2.5,2.5,13.6,moderate,0.5,3,1.5,3,3,11,IV,intermediate,No Lewy bodies,mild,SAMN02803599,96_35,985557,1275175,96_35_CSF
+SRR1568655,AD,Female,CSF,3;3,85,12,2.83,3,3,3,2,3,14,frequent,3,3,2.5,3,3,14.5,VI,high,No Lewy bodies,mild,SAMN02803280,96_46,985558,1275177,96_46_CSF
+SRR1568657,Ctrl,Female,CSF,3;3,84,NA,2.66,0,0,0,0,0,0,moderate,0,0.5,0,3,3,6.5,III,criteria not met,No Lewy bodies,none,SAMN02803657,96_49,985559,1275179,96_49_CSF
+SRR1568659,Ctrl,Female,CSF,3;3,86,NA,5.25,0,0,0,0,0,0,sparse,0,0.5,0,1,1.5,3,III,criteria not met,No Lewy bodies,none,SAMN02803482,97_17,985560,1275181,97_17_CSF
+SRR1568661,AD,Male,CSF,4;4,84,8,7,2.5,3,2.5,1.5,2.75,12.25,moderate,2.66,3,3,3,3,14.66,VI,high,LB pathology unspecified or not further assessed,moderate,SAMN02803534,97_18,985561,1275183,97_18_CSF
+SRR1568663,Ctrl,Female,CSF,2;3,84,NA,4.25,2.5,3,2,0.5,2.5,10.5,moderate,0,0.5,0,1,2,3.5,III,criteria not met,No Lewy bodies,none,SAMN02803461,97_21,985562,1275185,97_21_CSF
+SRR1568665,AD,Female,CSF,3;3,89,7,1.75,3,2.75,3,2,2.25,13,frequent,0,2.5,0,3,3,8.5,IV,intermediate,No Lewy bodies,none,SAMN02803593,97_22,985563,1275187,97_22_CSF
+SRR1568667,AD,Male,CSF,2;3,88,7,2.5,2.5,2.5,2,2.5,2,11.5,frequent,3,3,3,3,3,15,VI,high,No Lewy bodies,none,SAMN02803567,97_24,985564,1275189,97_24_CSF
+SRR1568670,Ctrl,Female,CSF,3;3,89,NA,2.5,2.7,2.3,2,1,0,8,zero,0.5,3,1.5,3,3,11,IV,criteria not met,No Lewy bodies,none,SAMN02803484,97_37,985567,1275195,97_37_CSF
+SRR1568672,PD,Female,CSF,2;3,89,16,1.75,0,0,0,0,0,0,sparse,0.25,0,0,1,1,2.25,II,criteria not met,LB pathology unspecified or not further assessed,severe,SAMN02803554,97_39,985568,1275197,97_39_CSF
+SRR1568673,Ctrl,Male,CSF,3;4,88,NA,2.16,3,3,3,1,2,12,moderate,0,0.5,0,3,3,6.5,III,criteria not met,No Lewy bodies,none,SAMN02803248,97_44,985569,1275199,97_44_CSF
+SRR1568675,PD,Female,CSF,2;3,88,1,2.5,2,2.5,2,1.5,2,10,zero,0,1,0,2,2.75,5.75,IV,intermediate,Limbic type,severe,SAMN02803433,97_45,985570,1275201,97_45_CSF
+SRR1568677,PD,Female,CSF,3;3,90,4,2.16,1,0.5,1,0,0,2.5,sparse,0,0,0,1.5,2,3.5,III,low,Limbic type,moderate,SAMN02803263,97_48,985571,1275203,97_48_CSF
+SRR1568679,AD,Male,CSF,3;4,90,12,3,3,3,3,3,3,15,frequent,1.8,3,2,3,3,12.8,V,high,No Lewy bodies,none,SAMN02803620,97_49,985572,1275205,97_49_CSF
+SRR1568681,Ctrl,Female,CSF,3;4,91,7,2.5,0,0,0,0,0,0,zero,0,1,0,1,1,3,III,criteria not met,No Lewy bodies,mild,SAMN02803629,97_51,985573,1275207,97_51_CSF
+SRR1568683,Ctrl,Female,CSF,3;4,86,NA,2.5,0,0,1,0,0,1,zero,0,0,0,0,1,1,I,criteria not met,No Lewy bodies,none,SAMN02803370,98_03,985574,1275209,98_03_CSF
+SRR1568685,Ctrl,Female,CSF,2;3,87,NA,7.25,0,0,0,0,0,0,sparse,0,0,0,0.5,1,1.5,II,criteria not met,No Lewy bodies,none,SAMN02803299,98_07,985575,1275211,98_07_CSF
+SRR1568687,AD,Male,CSF,3;3,86,11,4,3,3,3,3,3,15,frequent,2,3,2.5,3,3,13.5,V,high,No Lewy bodies,moderate,SAMN02803588,98_10,985576,1275213,98_10_CSF
+SRR1568689,AD,Female,CSF,3;4,87,7,2.25,2.5,3,3,2,2.5,13,moderate,2.5,3,2.5,3,3,14,V,high,No Lewy bodies,mild,SAMN02803372,98_11,985577,1275215,98_11_CSF
+SRR1568691,Ctrl,Female,CSF,3;4,85,NA,1.16,3,2.5,3,1,1,10.5,sparse,0,0,0,0.5,1.5,2,II,criteria not met,No Lewy bodies,none,SAMN02803553,98_15,985578,1275217,98_15_CSF
+SRR1568693,Ctrl,Female,CSF,3;3,90,NA,2.66,0,0,0,0,0,0,zero,0.5,1,0,2.5,3,7,IV,criteria not met,No Lewy bodies,none,SAMN02803596,98_18,985579,1275219,98_18_CSF
+SRR1568695,Ctrl,Female,CSF,3;4,89,NA,3,0,0,0,0,0,0,moderate,0,0.5,0,2.5,3,6,III,criteria not met,No Lewy bodies,mild,SAMN02803254,98_19,985580,1275221,98_19_CSF
+SRR1568697,PD,Male,CSF,2;3,86,NA,5,0,0,0,0,0,0,moderate,0.5,1,0.5,2,3,7,III,intermediate,Neocortical type,severe,SAMN02803401,98_22,985581,1275223,98_22_CSF
+SRR1568700,PD,Male,CSF,3;4,87,23,2,0,1,0,0,1,2,moderate,0,0,0,1.5,1,2.5,I,criteria not met,Neocortical type,moderate,SAMN02803627,98_24,985583,1275227,98_24_CSF
+SRR1568702,Ctrl,Female,CSF,3;3,91,8,2.5,3,3,3,3,3,15,frequent,0,1,1,1,1,4,III,criteria not met,No Lewy bodies,none,SAMN02803390,98_29,985584,1275229,98_29_CSF
+SRR1568704,PD,Male,CSF,3;4,87,17,3.75,3,3,3,2,3,14,moderate,2.5,3,3,3,3,14.5,V,high,Neocortical type,severe,SAMN02803516,98_30,985585,1275231,98_30_CSF
+SRR1568706,Ctrl,Male,CSF,3;4,87,2,2.5,0,0,0,0,0,0,moderate,0,1,0.5,1,1.5,4,I,criteria not met,No Lewy bodies,none,SAMN02803297,98_34,985586,1275233,98_34_CSF
+SRR1568708,PD,Female,CSF,3;3,91,15,4,0,0,0,0,0,0,moderate,1,1,0.5,2.25,2.75,7.5,IV,intermediate,Neocortical type,severe,SAMN02803453,98_37,985587,1275235,98_37_CSF
+SRR1568710,Ctrl,Male,CSF,3;3,88,1,3,0,0.5,0,0,0,0.5,moderate,0,0,0,1,1,2,II,criteria not met,No Lewy bodies,none,SAMN02803295,99_01,985588,1275237,99_01_CSF
+SRR1568712,AD,Female,CSF,3;3,86,9,3,3,3,3,2,2.75,13.75,moderate,2.5,3,3,3,3,14.5,V,high,LB pathology unspecified or not further assessed,severe,SAMN02803375,99_02,985589,1275239,99_02_CSF
+SRR1568714,AD,Female,CSF,3;3,91,3,4.16,2.5,2,2.5,1,2,10,frequent,2,3,2,3,3,13,V,high,LB pathology unspecified or not further assessed,mild,SAMN02803598,99_05,985590,1275241,99_05_CSF
+SRR1568716,AD,Female,CSF,3;4,91,6,2.83,3,3,3,2,2,13,frequent,0.75,1,0.5,3,3,8.25,IV,intermediate,No Lewy bodies,mild,SAMN02803649,99_09,985591,1275243,99_09_CSF
+SRR1568718,Ctrl,Female,CSF,3;3,87,NA,3,3,3,3,2,3,14,sparse,0,0.25,0,1.5,1.25,3,III,criteria not met,No Lewy bodies,none,SAMN02803576,99_10,985592,1275245,99_10_CSF
+SRR1568720,AD,Male,CSF,3;3,93,7,1.75,3,3,3,2,2,13,frequent,0,0,0,1,2.5,3.5,III,intermediate,No Lewy bodies,none,SAMN02803481,99_14,985593,1275247,99_14_CSF
+SRR1568722,Ctrl,Female,CSF,3;3,92,NA,3.66,0,0,0,0,0,0,frequent,0,0,0,2,1.5,3.5,III,criteria not met,No Lewy bodies,mild,SAMN02803448,99_15,985594,1275249,99_15_CSF
+SRR1568724,Ctrl,Male,CSF,3;3,91,NA,3,0.75,1.5,0.25,0,1.5,4,moderate,0,0,0,2.5,2.5,5,III,criteria not met,No Lewy bodies,none,SAMN02803331,99_17,985595,1275251,99_17_CSF
+SRR1568726,AD,Male,CSF,3;3,89,8,1.83,3,3,3,1.5,2.75,13.25,frequent,1.3,2,2.5,3,3,11.8,VI,high,,,SAMN02803477,99_23,985596,1275253,99_23_CSF
+SRR1568727,Ctrl,Male,CSF,3;3,93,NA,3.16,0,0.5,0.5,0,0,1,sparse,0,0.5,0,2,2,4.5,IV,criteria not met,No Lewy bodies,mild,SAMN02803652,99_25,985597,1275255,99_25_CSF
+SRR1568729,AD,Female,CSF,2;3,90,8,3.33,2,2.5,1.5,0,2.5,8.5,moderate,3,3,3,3,3,15,VI,high,No Lewy bodies,none,SAMN02803582,99_26,985598,1275257,99_26_CSF
+SRR1568731,Ctrl,Male,CSF,3;3,89,NA,2.66,1.5,1.5,1.5,1.5,1,7,zero,0,0,0,0.5,2,2.5,III,criteria not met,No Lewy bodies,none,SAMN02803472,99_27,985599,1275259,99_27_CSF
+SRR1568733,Ctrl,Female,CSF,2;2,90,NA,4.25,1.5,1.5,2,1,1,7,sparse,0,0.5,0,2,2.5,5,III,criteria not met,No Lewy bodies,mild,SAMN02803313,99_28,985600,1275261,99_28_CSF
+SRR1568735,AD,Female,CSF,3;3,88,5,2.25,3,3,3,2,3,14,moderate,1.5,3,1.5,3,3,12,V,high,LB pathology unspecified or not further assessed,,SAMN02803612,99_29,985601,1275263,99_29_CSF
+SRR1568736,AD,Female,CSF,,93,10,1.5,3,3,3,2.5,2.5,14,frequent,3,3,3,2.75,3,14.75,VI,high,No Lewy bodies,none,SAMN02803561,99_36,985602,1275265,99_36_CSF
+SRR1568738,Ctrl,Female,CSF,3;3,88,NA,2.83,2.33,1.75,2,1,1.75,8.83,zero,0,1.25,0,2.75,3,7,IV,criteria not met,No Lewy bodies,none,SAMN02803369,99_38,985603,1275267,99_38_CSF
+SRR1568740,Ctrl,Female,CSF,3;3,94,NA,3,0,0,0,0,0,0,moderate,0,0,0,1.5,2,3.5,III,criteria not met,No Lewy bodies,moderate,SAMN02803298,99_43,985604,1275269,99_43_CSF
+SRR1568741,Ctrl,Male,CSF,3;3,93,NA,3.5,0,1.5,0.5,0,2.5,4.5,zero,0,0,0,2.5,2.5,5,III,criteria not met,No Lewy bodies,none,SAMN02803326,99_44,985605,1275271,99_44_CSF
+SRR1568743,Ctrl,Male,CSF,3;3,96,NA,3.25,0.5,0.5,1,0,0.5,2.5,zero,0,0,0,1,1,2,III,criteria not met,No Lewy bodies,mild,SAMN02803317,99_48,985606,1275273,99_48_CSF
+SRR1568745,AD,Female,CSF,4;4,94,14,2.5,3,3,2,3,3,14,frequent,3,3,2.5,3,3,14.5,VI,high,LB pathology unspecified or not further assessed,moderate,SAMN02803305,99_51,985607,1275275,99_51_CSF
+SRR1568747,Ctrl,Male,CSF,3;3,92,NA,2.16,3,3,3,1.25,2.5,12.75,frequent,0.3,1,1,2,2,6.3,III,criteria not met,No Lewy bodies,none,SAMN02803551,99_52,985608,1275277,99_52_CSF
+SRR1568749,Ctrl,Female,CSF,3;3,94,NA,2,1.25,0.5,0,0,0,1.75,zero,0,1,0,3,3,7,IV,criteria not met,No Lewy bodies,mild,SAMN02803485,99_58,985609,1275279,99_58_CSF
+SRR1568751,Ctrl,Male,CSF,3;3,94,NA,3.75,1.5,1.5,1.5,2,2,8.5,sparse,0,0,0,1.5,2.5,4,III,criteria not met,No Lewy bodies,none,SAMN02803320,99_60,985610,1275281,99_60_CSF
+SRR1568753,AD,Female,CSF,3;3,99,5,2.66,2.5,2.5,2,2,2.5,11.5,frequent,0,0,0,1,0,3.18,III,intermediate,No Lewy bodies,none,SAMN02803519,99_63,985611,1275283,99_63_CSF
+SRR1568755,Ctrl,Female,CSF,3;3,101,8,2.5,0,0,0,0,0,0,zero,0,1,0,1.5,2,4.5,III,criteria not met,No Lewy bodies,moderate,SAMN02803399,99_64,985612,1275285,99_64_CSF
