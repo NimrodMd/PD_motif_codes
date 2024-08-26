@@ -1,5 +1,6 @@
-# PD_motif_codes
-Codes used for Madrer et.al PD-motif paper
+**These codes and files accomapny the paper**
+***Pre-symptomatic Parkinson’s disease blood test quantifying repetitive sequence motifs in transfer RNA fragments***
+**By Madrer et al.**
 
 This folder contains two subfolders:
 1. Bash_codes:
