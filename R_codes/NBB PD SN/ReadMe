@@ -1,4 +1,4 @@
-Raw data (FASTQ) are deposited in GSE256334 . Files were processed using detailed bash codes.
+Raw data (FASTQ) are deposited in GSE256334. Files were processed using detailed bash codes.
 
 ColData.csv - samples data
 tRNA_Exclusive_Combined_data.csv - counts
