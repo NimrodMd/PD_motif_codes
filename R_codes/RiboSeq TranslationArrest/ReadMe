@@ -1,0 +1,5 @@
+Raw data (FASTQ) from GSE113751. Files were processed using detailed bash codes.
+
+ColData_new.csv - samples data
+tRNA_Exclusive_Combined_data.csv - counts
+tRF_meta.csv - tRFs lookup data
