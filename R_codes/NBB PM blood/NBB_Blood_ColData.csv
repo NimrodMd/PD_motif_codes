@@ -1,0 +1,38 @@
+Sample.Name,Sex,Age,braak,amyloid,braaklb,apoe,PD_y_n,full_Diagnosis,PMD_brain,PMD_blood,PD_duration,RIN_brain,RIN_blood,RINgroup,blood_seq_batch,Sepsis,HeartFailure,Euthanasia,CauseofDeath,Alzheimer,DBS,SN,MTG,Amy,blood,ABC,notes1,notes2,Diagnosis_in_length,ph,weight,fq.too.small.,to.remove.Nimrod,excluded,short_seq
+S15/088,female,86,1,A,4,0,PD,NDPD,,02:15:00,11,,8.5,high,4,0,0,1,Euthanasia,0,0,0,0,0,1,,,,,,,,,0,1
+S02/008,female,75,1,B,5,43,PD,NDPD,,03:36:00,20,,6.7,intermidiate,6,0,0,1,Euthanasia,0,0,0,0,0,1,,,,,,,,,0,1
+S16/002,female,81,2,A,4,0,PD,NDPD,,04:10:00,25,,6.7,intermidiate,2,0,0,0,Other,0,0,0,0,0,1,,,,,,,,,0,1
+S02/258,male,71,1,O,NA,33,NDC,NDC,,05:25:00,0,,5,intermidiate,8,1,0,0,Sepsis,0,0,0,0,0,1,,,,,,,,,0,1
+S05/298,male,73,1,A,3,33,PD,NDPD,,04:30:00,3,,6.7,intermidiate,3,1,0,0,Sepsis,0,0,0,0,0,1,,,,,,,,,0,1
+S07/121,male,67,1,O,6,32,PD,NDPD,,02:55:00,18,,7.6,high,2,1,0,0,Sepsis,0,0,0,0,0,1,,,,,,,,,0,1
+S11/079,male,81,2,A,6,33,PD,NDPD,,04:00:00,10,,7.1,high,6,0,0,1,Euthanasia,0,0,0,0,0,1,,,,,,,,,0,1
+S12/104,male,79,2,A,NA,32,NDC,NDC,06:30:00,04:40:00,0,8,7.4,high,5,0,0,1,Euthanasia,0,0,0,0,1,1,A1 B1 C0,,,Non-demented control,6.71,1121,,no,0,1
+S14/022,male,77,2,B,6,NA,PD,DPD,06:15:00,05:30:00,18,7.9,6.7,intermidiate,3,0,0,1,Euthanasia,0,0,1,1,1,1,A2 B1 CO,Montine classification for Alzheimer changes: A2 B1 CO,"Low"" AD neuropathologic change.",Park. dis. with dementia,6.6,1240,,no,0,1
+S00/097,male,78,1,A,1,33,NDC,NDC,,04:40:00,0,,7.2,high,2,0,1,0,HeartFailure,0,0,0,0,0,1,,,,,,,,,0,1
+S11/117,male,78,NA,,4,43,PD,NDPD,,05:15:00,16,,5.1,intermidiate,7,1,0,0,Sepsis,0,0,0,0,0,1,,very early signs of PD+dementia,,,,,,,0,1
+S11/026,male,77,3,O,6,43,PD,DPD,05:50:00,04:55:00,17,7.4,6.7,intermidiate,1,0,1,0,HeartFailure,0,0,1,1,0,1,,,,Park. dis. with dementia,6.09,1250,,no,0,1
+S01/194,male,88,1,O,0,32,NDC,NDC,,04:10:00,0,,7.6,high,6,0,1,0,HeartFailure,0,0,0,0,0,1,,,,,,,,,0,1
+S12/080,male,86,3,O,6,32,PD,DPD,05:50:00,05:05:00,13,6.5,6,intermidiate,4,0,1,0,HeartFailure,0,0,1,1,1,1,,,,Park. dis. with dementia,6.48,1340,fq size = 443 mg,no,0,1
+S07/030,male,84,1,A,0,33,NDC,NDC,,04:10:00,0,,6.8,intermidiate,1,0,1,0,HeartFailure,0,0,0,0,0,1,,,,,,,,,0,1
+S15/033,male,93,0,A,NA,NA,NDC,NDC,,06:00:00,0,,6.3,intermidiate,4,0,1,0,HeartFailure,0,0,0,0,0,1,A1 B0 C0,,,,,,,,0,1
+S15/072,male,75,1,O,5,NA,PD,NDPD,,07:30:00,8,,6.3,intermidiate,3,0,1,0,HeartFailure,0,0,0,0,0,1,A0 B1 C0.,PD+dementia early stage!!,,,,,,,0,1
+S13/013,male,89,2,O,NA,NA,NDC,NDC,,04:45:00,0,,6.7,intermidiate,2,1,0,0,Sepsis,0,0,0,0,0,1,,,,,,,,,0,1
+S16/039,male,79,1,A,4,NA,PD,DPD,,09:00:00,NA,,5,intermidiate,8,0,1,0,HeartFailure,0,0,0,0,0,1,A1 B1 C0,,"Low"" AD neuropathologic change.",,,,,,0,1
+S03/144,male,81,2,O,0,33,NDC,NDC,,03:31:00,0,,6.6,intermidiate,2,0,0,0,Other,0,0,0,0,0,1,,,,,,,,,0,1
+S13/041,male,70,1,B,6,NA,PD,DPD,05:45:00,04:30:00,11,8.1,6.6,intermidiate,6,0,0,0,Other,0,0,1,0,0,1,,,,Park. dis. with dementia,6.46,1303,,no,0,1
+S13/086,male,81,2,,6,NA,PD,DPD,04:35:00,03:45:00,8,7.4,5,intermidiate,2,0,0,0,Other,0,0,1,0,1,1,,,,Park. dis. with dementia,6.55,1230,,no,0,1
+S14/032,male,83,2,B,6,NA,PD,DPD,05:10:00,04:10:00,15,7.1,6.9,intermidiate,5,1,0,0,Sepsis,0,0,1,1,1,1,A2 B1 C1,familial PD,"Low"" AD neuropathologic change.",Park. dis. with dementia,6.38,1555,,no,0,1
+S14/076,male,78,3,B,6,NA,PD,DPD,05:00:00,03:40:00,17,7.6,6.4,intermidiate,6,1,0,0,Sepsis,0,0,1,0,1,1,A2 B2 C1,ABC criteria: A2B2C1,"Intermidate"" AD neuropathologic change.",Park. dis. with dementia,6.45,1435,,no,0,1
+S15/110,male,76,5,C,6,NA,PD,DPD,,03:35:00,9,,5.5,intermidiate,7,0,0,0,Other,0,0,0,0,0,1,A3 B3 C3.,Additionally advanced form of Alzheimer's disease!,High AD neuropathologic change.,,,,,,0,1
+S15/058,male,70,1,A,6,NA,PD,DPD,,06:45:00,17,,6.2,intermidiate,8,1,0,0,Sepsis,0,0,0,0,0,1,A2 B1 C0,,,,,,,,0,1
+S15/094,male,83,1,O,6,NA,PD,NDPD,,03:55:00,24,,5.2,intermidiate,4,1,0,0,Sepsis,0,0,0,0,0,1,A1 B1 C0,beginning of PD dementia,"Low"" AD neuropathologic change.",,,,,,0,1
+S16/023,male,75,1,A,4,NA,PD,NDPD,,04:35:00,36,,5,intermidiate,1,1,0,0,Sepsis,0,0,0,0,0,1,,beginning of PD dementia,,,,,,,0,1
+S98/233,male,71,2,,0,43,NDC,NDC,,04:00:00,0,,6.9,intermidiate,7,1,0,0,Sepsis,0,0,0,0,0,1,,,,,,,,,0,1
+S00/036,female,72,1,A,0,43,NDC,NDC,,04:30:00,0,,8,high,3,0,0,1,Euthanasia,0,0,0,0,0,1,,,,,,,,,0,1
+S13/011,female,92,3,A,0,NA,NDC,NDC,04:25:00,03:15:00,0,8.3,7.8,high,5,0,0,1,Euthanasia,0,0,1,1,1,1,NA,essential senile tremor (2003) - in NDC,NA,Non-demented control,6.65,1212,,no,0,1
+S03/015,female,91,3,A,0,32,NDC,NDC,,03:35:00,0,,7.3,high,1,0,1,0,HeartFailure,0,0,0,0,0,1,,,,,,,,,0,1
+S99/098,female,89,2,O,0,32,NDC,NDC,,03:15:00,0,,7,high,3,0,1,0,HeartFailure,0,0,0,0,0,1,,,,,,,,,0,1
+S00/282,female,76,1,O,0,32,NDC,NDC,,03:15:00,0,,6.2,intermidiate,4,0,0,0,Other,0,0,0,0,0,1,,,,,,,,,0,1
+S15/027,female,76,2,,,,NDC,NDC,,02:55:00,0,,6.2,intermidiate,5,0,0,0,Other,0,0,0,0,0,1,,,,,,,,,0,0
+S02/328,male,83,1,A,5,33,PD,NDPD,06:20,05:00:00,7,,6.2,intermidiate,5,0,0,0,Other,0,0,0,0,0,1,,,,,,,,,0,0
+S01/216,male,86,2,B,0,43,NDC,NDC,05:30,03:10:00,0,,5.3,intermidiate,3,0,0,0,Other,0,0,0,0,0,1,,,,,,,,,0,0
