@@ -6,7 +6,7 @@ As NIH data is confidential this is a simulated FAKE data that represents the ge
 ######################################################################################################################################################
 
 MetaData.csv - samples data
-tRNA_Exclusive_Combined_data.csv - counts
-tRF_meta.csv - tRFs lookup data
+trf_counts_simulated.csv - counts
+trf_meta_simulated.csv - tRFs lookup data
 
 
