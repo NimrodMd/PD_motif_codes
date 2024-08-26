@@ -8,4 +8,4 @@ This folder contains two subfolders:
    - FASTQ - an toy set of two samples
 3. R_codes:
    - The various R codes used to analyse the data
-   - A folder (name matching to the code file) containg the data used for the code. *in cases in which data is confidential, a simulated data is supplaied*)
+   - A folder (name matching to the code file) containg the data used for the code (*in cases in which data is confidential, a simulated data is supplaied*)
