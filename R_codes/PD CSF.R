@@ -56,8 +56,7 @@ ToRemove1<-c('SRR1568665','SRR1568516','SRR1568612','SRR1568554','SRR1568520','S
 ToRemove1<-append(ToRemove1,as.character(subset(ColData$ID,ColData$group=='Ctrl' & (ColData$AD_score>5 | ColData$sn_depigmentation=='Moderate'))))
 ColData$keep_trf<-!ColData$ID %in% ToRemove1 ; ColData$keep_mir<-!ColData$ID %in% ToRemove1
 
-t_cold<-subset(ColData,ColData$biofluid=='CSF' & ColData$keep_trf) ; m_cold<-subset(ColData,ColData$biofluid=='CSF' & ColData$keep_mir)
-cold1<-subset(t_cold,!t_cold$ADPD & t_cold$age>60)
+t_cold<-subset(ColData,ColData$keep_trf) ; cold1<-subset(t_cold,!t_cold$ADPD & t_cold$age>60)
 
 # Generate summary statistics for the subjects:
 sbjs<-ndf(c('Group','Sex','N','Avg. age','Avg. SN depigmentation','Avg. Lewy body stage','Avg. Braak score','Avg. Tangle','Avg. plaque','PM interval'))
