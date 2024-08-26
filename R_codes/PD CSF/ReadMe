@@ -1,0 +1,12 @@
+Raw data (FASTQ) from phs000727. Files were processed using detailed bash codes.
+
+######################################################################################################################################################
+### FAKE DATA ###
+As NIH data is confidential this is a simulated FAKE data that represents the general structure of the real data only for the purpose of code checkups
+######################################################################################################################################################
+
+MetaData.csv - samples data
+tRNA_Exclusive_Combined_data.csv - counts
+tRF_meta.csv - tRFs lookup data
+
+
