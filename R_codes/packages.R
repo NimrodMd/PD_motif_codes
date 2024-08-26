@@ -1,0 +1,20 @@
+
+install.packages("ggplot2")
+install.packages("ggfortify")
+install.packages("ggh4x", type = "win.binary")
+
+install.packages("BiocManager")
+BiocManager::install("biomaRt")
+BiocManager::install("edgeR")
+BiocManager::install("DESeq2")
+BiocManager::install("data.table")
+BiocManager::install("Rgraphviz")
+
+install.packages("dplyr")
+install.packages("CePa")
+install.packages("tidyr")
+install.packages('svglite')
+install.packages("matrixStats")
+install.packages("gridExtra")
+install.packages("devtools", type = "win.binary")
+install.packages('reshape')
