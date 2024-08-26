@@ -5,6 +5,7 @@ FLEXBAR:
 https://github.com/seqan/flexbar
 
 MultiQC:
+Install multiQC (in the conda prompt): pip install multiqc
 
 MINTmap:
 https://cm.jefferson.edu/mintmap/
