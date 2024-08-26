@@ -1,32 +1,30 @@
-first, change the directory in 0.0RunFirst.sh, then run the followings one by one (wait until finish):
 
-ssh nimrod.madrer@bs-cluster.elsc.huji.ac.il 		squeue -u nimrod.madrer			scancel -u nimrod.madrer
-
-0. change directories
-sbatch --time=2-0:0:0 Folder_name/0.2.RunFirst.sh
+0. Install multiQC (in the conda prompt): pip install multiqc
 
 1. first QC
-sbatch --time=2-0:0:0 Folder_name/1.1.fastQC_paralel.sh
+sbatch --time=2-0:0:0 ADPD/TBI/1.1.fastQC_paralel.sh
 
 2. MultiQC (in CondaPrompt)
-multiqc Y:\nimrod.madrer\Folder_name\QC\logs_Raw
+multiqc Y:\nimrod.madrer\ADPD\TBI\QC\logs_Raw
 ren multiqc_data multiqc_data_Raw
 ren multiqc_report.html multiqc_Raw.html
-move multiqc_data_Raw Y:\nimrod.madrer\Folder_name\QC
-move multiqc_Raw.html Y:\nimrod.madrer\Folder_name\QC
+move multiqc_data_Raw Y:\nimrod.madrer\ADPD\TBI\QC
+move multiqc_Raw.html Y:\nimrod.madrer\ADPD\TBI\QC
 
 3. cutAdapt
-sbatch --time=2-0:0:0 Folder_name/3.1.CutAdapt_paralel.sh
+sbatch --time=2-0:0:0 ADPD/TBI/3.1.CutAdapt_paralel.sh
 
 4. second QC
-sbatch --time=2-0:0:0 Folder_name/4.1.fastQC_afterCutAdapt_paralel.sh
+sbatch --time=2-0:0:0 ADPD/TBI/4.1.fastQC_afterCutAdapt_paralel.sh
 
 5. MultiQC again (in CondaPrompt)
-multiqc Y:\nimrod.madrer\Folder_name\QC\logs_afterCutAdapt
+multiqc Y:\nimrod.madrer\ADPD\TBI\QC\logs_afterCutAdapt
 ren multiqc_data multiqc_data_NoAdaptors
 ren multiqc_report.html multiqc_NoAdaptors.html
-move multiqc_data_NoAdaptors Y:\nimrod.madrer\Folder_name\QC
-move multiqc_NoAdaptors.html Y:\nimrod.madrer\Folder_name\QC
+move multiqc_data_NoAdaptors Y:\nimrod.madrer\ADPD\TBI\QC
+move multiqc_NoAdaptors.html Y:\nimrod.madrer\ADPD\TBI\QC
 
 6. Alignment
-sbatch --time=2-0:0:0 Folder_name/6.AllShort_Alignment.sh
+sbatch --time=2-0:0:0 ADPD/TBI/6.AllShort_Alignment.sh
+
+7. run FileProcessingMINTMap in R
