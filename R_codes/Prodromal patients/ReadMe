@@ -1,0 +1,10 @@
+Raw data (FASTQ) from the PPMI. Files were processed using detailed bash codes.
+
+######################################################################################################################################################
+### FAKE DATA ###
+As PPMI data is confidential this is a simulated FAKE data that represents the general structure of the real data only for the purpose of code checkups
+######################################################################################################################################################
+
+ColData_PPMI_Simulated.csv - samples data
+trf_counts_simulated.csv.gz - counts
+trf_meta_simulated.csv - tRFs lookup data
