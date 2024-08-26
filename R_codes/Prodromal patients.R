@@ -595,7 +595,7 @@ ggplot(chp_mtfs,aes(true,Prodromal,col=true))+theme_classic()+geom_boxplot(outli
 table(tolower(chp_mtfs$pred),chp_mtfs$true)*100/nrow(chp_mtfs)
 
 
-# Checking qPCR-matching tRFs in PDs #####
+# Checking "qPCR-matching" tRFs in PDs #####
 
 v_ppmi<-subset(col_ppmi,!col_ppmi$Group %in% c('Prodromal','SWEDD')) ; v_ppmi$cond<-droplevels(v_ppmi$cond)
 v_ppmi<-subset(v_ppmi,v_ppmi$Other_diseases %in% c('0','NA') & v_ppmi$timePoint %in% c('BL') & v_ppmi$PD_meds %in% c('non','UnKnown') &
@@ -710,3 +710,163 @@ ggplot(val_pv,aes(variable,value,col=variable))+theme_classic()+geom_boxplot() ;
 
 
 
+# Checking trained Prodromal machine on Naive Prodromal patients #####
+
+tst_col<-subset(col_ppmi,!col_ppmi$sample %in% chip$sample & col_ppmi$cond %in% c('Prodromal','Ctrl'))
+tst_cts<-trfs0[,colnames(trfs0) %in% tst_col$sample]
+
+prd_tst<-data.frame(sample=colnames(tst_cts),
+                    mtf=colSums(tst_cts[rownames(tst_cts) %in% subset(ppmiMeta$MINTbase.Unique.ID,ppmiMeta$mtfs3=='RGTTCRA'),]),
+                    mt=colSums(tst_cts[rownames(tst_cts) %in% subset(ppmiMeta$MINTbase.Unique.ID,ppmiMeta$mtfs3=='MT'),]))
+prd_tst$mtf_mt<-prd_tst$mtf/(1+prd_tst$mt) ; prd_tst<-merge(prd_tst,tst_col,by='sample')
+
+toKeep<-c()
+for(s in unique(prd_tst$Subject)){
+  tmp<-subset(prd_tst,prd_tst$Subject==s) ; toKeep<-append(toKeep,as.character(tmp$sample[order(tmp$timePoint,decreasing=F)][1]))}
+tmp1<-subset(prd_tst,prd_tst$sample %in% toKeep)
+tmp1<-subset(tmp1,tmp1$Ethnicity=='White' & tmp1$timePoint %in% c('V02','V04','V06') & tmp1$Genetic_background!='LRRK2+' & 
+               tmp1$PD_meds %in% c('non','UnKnown') & tmp1$s_Study=='phase2')
+tmp1$cond<-droplevels(tmp1$cond)
+
+out_prd<-matchit(cond ~ Sex+Age_timepoint,data=tmp1,method='optimal',link='probit',distance='glm')
+plot(out_prd, type = "density", interactive = FALSE,which.xs = ~Age_timepoint + Sex)
+v_m.prd<-match.data(out_prd) ; summary(out_prd,un=T) ; plot(summary(out_prd))
+table(v_m.prd$subclass,v_m.prd$cond) ; plot(out_prd, type = "jitter", interactive = FALSE)
+# 35 prodromal, 35 control patients
+
+v_m.prd$mtf_mt2<-unlist(lapply(1:nrow(v_m.prd),function(n)
+  (v_m.prd$mtf_mt[n]/mean(subset(v_m.prd$mtf_mt,v_m.prd$subclass==v_m.prd$subclass[n])))))
+v_m.prd$mtf2<-unlist(lapply(1:nrow(v_m.prd),function(n)
+  (v_m.prd$mtf[n]/mean(subset(v_m.prd$mtf,v_m.prd$subclass==v_m.prd$subclass[n])))))
+v_m.prd$mt2<-unlist(lapply(1:nrow(v_m.prd),function(n)
+  (v_m.prd$mt[n]/mean(subset(v_m.prd$mt,v_m.prd$subclass==v_m.prd$subclass[n])))))
+# write.csv(v_m.prd,dir1('Naive prodromal data.csv'))
+
+set.seed(123)
+l0<-c("cond","mtf_mt2") ; roc_chp0<-chip[,l0]
+ctrl0 <- trainControl(method="none", summaryFunction=twoClassSummary,number=1,classProbs=T,savePredictions = T,)
+c_fit_all0_k1 <- train(cond ~ .,data=roc_chp0,method="gbm",trControl=ctrl0,na.action=na.omit)
+
+chp_prd<-data.frame(predict(c_fit_all0_k1, newdata = v_m.prd[,l0], type = 'prob'),
+                    pred=predict(c_fit_all0_k1, newdata = v_m.prd[,l0]),true=v_m.prd$cond,PATNO=v_m.prd$Subject)
+chp_prd<-merge(chp_prd,dig,by='PATNO')
+
+chp2_prd<-merge(chp_prd,unique(col_ppmi[,c("Subject","Sex","Age_timepoint","Genetic_background","Ethnicity","PD_meds","Other_diseases","s_Study")]),
+                by.x='PATNO',by.y='Subject')
+chp2_prd<-merge(chp2_prd,v_m.prd[,c('Subject','timePoint')],by.x='PATNO',by.y='Subject')
+chp2_prd$tm2dg<-as.numeric(gsub('V','',as.character(chp2_prd$DIAG1VIS))) - as.numeric(gsub('V','',as.character(chp2_prd$timePoint)))
+
+ggplot(chp_prd,aes(interaction(true,DIAG1),Prodromal,col=true))+theme_classic()+ylim(0,1)+geom_boxplot(outlier.shape=NA)+
+  geom_point(position=position_jitter(width=0.1,height=0.01))+geom_hline(yintercept=0.5,col='black',linetype='dotted')+
+  stat_summary(shape=18,geom='point',col='black',fun='mean',size=3)
+# ggsave(dir1('2nd prodromal tRF validation.svg'),width=3,height=3)
+t.test(chp_prd$Prodromal~chp_prd$true) # p<0.003
+
+tmp<-subset(chp_prd,chp_prd$DIAG1=='PD') ; table(tmp$pred,tmp$true)
+
+ auc(chp_prd$true,chp_prd$Prodromal) ; ci.auc(chp_prd$true,chp_prd$Prodromal)
+table(chp_prd3$pred,chp_prd3$true)
+
+tmp<-subset(chp2_prd,chp2_prd$DIAG1=='PD') 
+ggplot(tmp,aes(tm2dg,Prodromal))+theme_classic()+geom_point()
+cor.test(as.numeric(gsub('V','',as.character(tmp$DIAG1VIS))),tmp$Prodromal,method='spearman')
+
+l1<-c("cond","Hoehn.and.Yahr.staging","UPDRS.score.III") ; roc_chp1<-chip[,l1]
+ctrl1 <- trainControl(method="none", summaryFunction=twoClassSummary,number=1,classProbs=T,savePredictions = T)
+c_fit_all1_k1 <- train(cond ~ .,data=roc_chp1,method="gbm",trControl=ctrl1,na.action=na.omit)
+
+tmp<-subset(v_m.prd,!is.na(v_m.prd$UPDRS.score.III))
+chp_clnc_prd<-data.frame(predict(c_fit_all1_k1, newdata = tmp[,l1], type = "prob"),
+                         pred=predict(c_fit_all1_k1, newdata = tmp[,l1]),true=tmp$cond,PATNO=tmp$Subject) 
+chp_clnc_prd<-merge(chp_clnc_prd,dig,by='PATNO')
+
+ggplot(chp_clnc_prd,aes(true,Prodromal,col=true))+theme_classic()+ylim(0,1)+geom_boxplot(outlier.shape=NA)+
+  geom_point(position=position_jitter(width=0.1,height=0.01))+geom_hline(yintercept=0.5,col='black',linetype='dotted')+
+  stat_summary(shape=18,geom='point',col='black',fun='mean',size=3)
+# ggsave(dir1('2nd prodromal Clinical validation.svg'),width=3,height=3)
+t.test(chp_clnc_prd$Prodromal~chp_clnc_prd$true)
+
+
+# Making sure that motif effect is not due to training #####
+prd_meta2<-subset(ppmiMeta, ppmiMeta$nuclear == 'Mitochondrial' & 
+                    ppmiMeta$MINTbase.Unique.ID %in% 
+                    rownames(trfs0[rowSums(trfs0)>=1,colnames(trfs0) %in% subset(col_ppmi$sample,
+                                                                                 col_ppmi$cond %in% c('Prodromal','Ctrl'))]))
+ppmiMeta$ctrl<-F ; ppmiMeta$ctrl2<-F ; ppmiMeta$ctrl3<-F
+
+ck<-c()
+for(i in 1:33){
+  tmp<-unlist(lapply(ppmiMeta$tRF.sequence,function(x) substr(as.character(x),i,i+13)))
+  ck<-append(ck,tmp[nchar(tmp)==14])
+} ; ck<-unique(ck) ; ck<-ck[!grepl('[AG]GTTC[AG]A',ck)]
+ck_mtf<-ck ; ck_rndMT<-ck
+
+for(s in ck){
+  ppmiMeta$ctrl<-factor(unlist(grepl(s,ppmiMeta$tRF.sequence)),labels=c('No','Yes'))
+  if(sum(ppmiMeta$ctrl=='Yes')<285){ck_mtf<-ck_mtf[!grepl(s,ck_mtf)]}
+  if(sum(ppmiMeta$ctrl=='Yes')<106){ck_rndMT<-ck_rndMT[!grepl(s,ck_rndMT)]}}
+# write.csv(ck_mtf,dir1('random motifs.csv')) ; write.csv(ck_rndMT,dir1('random MTs.csv'))
+
+mt_ck<-c()
+for(i in 1:25){
+  tmp<-unlist(lapply(prd_meta2$tRF.sequence,function(x) substr(as.character(x),i,i+22)))
+  mt_ck<-append(mt_ck,tmp[nchar(tmp)==22])
+} ; mt_ck<-unique(mt_ck) ; mt_ck<-mt_ck[!grepl('[AG]GTTC[AG]A',mt_ck)] ; mt_ck<-mt_ck[!grepl('TAACTTAGCATTAACCTTTTAA',mt_ck)]
+ck_truMT<-mt_ck
+
+for(s in mt_ck){
+  ppmiMeta$ctrl<-factor(unlist(grepl(s,ppmiMeta$tRF.sequence)),labels=c('No','Yes'))
+  if(sum(ppmiMeta$ctrl=='Yes')<106){ck_truMT<-ck_truMT[!grepl(s,ck_truMT)]}}
+# write.csv(ck_truMT,dir1('MT motifs.csv'))
+
+n=10000 ; sqs<-unique(data.frame(a=sample(ck_mtf,n,T),b=sample(ck_rndMT,n,T),c=sample(ck_truMT,n,T), rocs=F,mt=F,RGTTCRA=F))
+for(r in 1:nrow(sqs)){
+  ppmiMeta$ctrl<-factor(unlist(grepl(sqs[r,'a'],ppmiMeta$tRF.sequence)),labels=c('No','Yes'))
+  ppmiMeta$ctrl2<-factor(unlist(grepl(sqs[r,'b'],ppmiMeta$tRF.sequence)),labels=c('No','Yes'))
+  ppmiMeta$ctrl3<-factor(unlist(grepl(sqs[r,'c'],ppmiMeta$tRF.sequence)),labels=c('No','Yes'))
+  
+  rnd<-data.frame(sample=colnames(trfs0),
+                  mtf=colSums(trfs0[rownames(trfs0) %in% subset(ppmiMeta$MINTbase.Unique.ID,ppmiMeta$ctrl=='Yes'),]),
+                  mt=colSums(trfs0[rownames(trfs0) %in% subset(ppmiMeta$MINTbase.Unique.ID,ppmiMeta$ctrl2=='Yes'),]))
+  if(sum(rnd$mtf)>0 & sum(rnd$mt)>0){
+    rnd$mtf_mt<-(rnd$mtf+1)/(rnd$mt+1) ; rnd<-merge(rnd,m.data,by='sample')
+    rnd$mtf_mt2<-unlist(lapply(1:nrow(rnd),function(n)
+      (rnd$mtf_mt[n]/mean(subset(rnd$mtf_mt,rnd$subclass==rnd$subclass[n])))))
+    
+    roc_chp0<-rnd[,c("cond","mtf_mt2","Ethnicity")]
+    ctrl0 <- trainControl(method="cv", summaryFunction=twoClassSummary, number=5, classProbs=T,savePredictions = T)
+    c_fit_all0 <- train(cond ~ .,data=roc_chp0,method="gbm",trControl=ctrl0,na.action=na.omit)
+    
+    set.seed(123) ; res<-evalm(c_fit_all0,gnames='Only tRFs')
+    sqs[r,'rocs']<-as.numeric(res$stdres$`Only tRFs`['AUC-ROC','Score'])
+    sqs[r,'RGTTCRA']<-sum(ppmiMeta$ctrl=='Yes' & ppmiMeta$motifs=='RGTTCRA motif')/sum(ppmiMeta$ctrl=='Yes')*100
+  }
+
+
+  rnd<-data.frame(sample=colnames(trfs0),
+                  mtf=colSums(trfs0[rownames(trfs0) %in% subset(ppmiMeta$MINTbase.Unique.ID,ppmiMeta$ctrl=='Yes'),]),
+                  mt=colSums(trfs0[rownames(trfs0) %in% subset(ppmiMeta$MINTbase.Unique.ID,ppmiMeta$ctrl3=='Yes'),]))
+  if(sum(rnd$mtf)>0 & sum(rnd$mt)>0){
+    rnd$mtf_mt<-(rnd$mtf+1)/(rnd$mt+1) ; rnd<-merge(rnd,m.data,by='sample')
+    rnd$mtf_mt2<-unlist(lapply(1:nrow(rnd),function(n)
+      (rnd$mtf_mt[n]/mean(subset(rnd$mtf_mt,rnd$subclass==rnd$subclass[n])))))
+    
+    roc_chp0<-rnd[,c("cond","mtf_mt2","Ethnicity")]
+    ctrl0 <- trainControl(method="cv", summaryFunction=twoClassSummary, number=5, classProbs=T,savePredictions = T)
+    c_fit_all0 <- train(cond ~ .,data=roc_chp0,method="gbm",trControl=ctrl0,na.action=na.omit)
+    
+    set.seed(123) ; res<-evalm(c_fit_all0,gnames='Only tRFs')
+    sqs[r,'mt']<-as.numeric(res$stdres$`Only tRFs`['AUC-ROC','Score'])
+    sqs[r,'RGTTCRA']<-sum(ppmiMeta$ctrl=='Yes' & ppmiMeta$motifs=='RGTTCRA motif')/sum(ppmiMeta$ctrl=='Yes')*100
+  }
+} ; #write.csv(sqs,dir1('motifs permutations1.csv'))
+
+n=8/60 ; mean(sqs$rocs) ; sd(sqs$rocs) ; quantile(sqs$rocs,probs=0.99) # mean=0.68, SD=0.054, q99=0.81
+ggplot(sqs,aes(rocs))+theme_classic()+geom_density(lwd=1)+geom_density(data=sqs,aes(mt),col='darkgreen',lwd=1)+
+  geom_vline(xintercept=0.86,linetype='dashed',col='orange3',lwd=1)+
+  geom_vline(xintercept=quantile(sqs$rocs,probs=0.99),linetype='dotted',col='grey50')+
+  annotate("rect",xmin=mean(sqs$rocs)-sd(sqs$rocs),xmax=mean(sqs$rocs)+sd(sqs$rocs),
+           ymin=-Inf,ymax=Inf,alpha=0.2,fill="red3")+xlab('AUC')
+  geom_smooth(aes(rocs,RGTTCRA*n),formula='y~x',method='loess')+
+  scale_y_continuous("# AUCs", sec.axis = sec_axis(~ ./n, name = "% of RGTTCRA tRFs"))
+# ggsave(dir1('Random Motifs density.svg'),width=7,height=3)                           
