@@ -1,6 +1,4 @@
 
-0. Install multiQC (in the conda prompt): pip install multiqc
-
 1. first QC
 sbatch --time=2-0:0:0 ADPD/TBI/1.1.fastQC_paralel.sh
 
