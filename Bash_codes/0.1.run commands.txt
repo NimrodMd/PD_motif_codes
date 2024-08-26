@@ -25,4 +25,4 @@ move multiqc_NoAdaptors.html Y:\nimrod.madrer\ADPD\TBI\QC
 6. Alignment
 sbatch --time=2-0:0:0 ADPD/TBI/6.AllShort_Alignment.sh
 
-7. run MINTMap_combine_files and miRdeep_combine_files.R in R
+7. run MINTMap_combine_files and miRdeep_combine_files in R
