@@ -27,10 +27,10 @@ ndf<-function(x) as.data.frame(t(data.frame(row.names=x)))
 
 # CSF data:
 ColData<-read.csv(dir('MetaData.csv')) # Read Metadata
-ColData<-ColData[c(-278,-346),]
+ColData<-ColData[-18,]
 # patient 02_01 has two occurences:
-# - one with ApoE 3;4 and higher BRAAK (rows: 278,346)
-# - one with ApoE 3;3 and lower BRAAK (rows: 277,345)
+# - one with ApoE 3;4 and higher BRAAK (row 18)
+# - one with ApoE 3;3 and lower BRAAK (row 17)
 
 ColData$group<-factor(ColData$group,levels=c('Ctrl','AD','PD'))
 
