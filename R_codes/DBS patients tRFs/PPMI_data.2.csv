@@ -1,0 +1,491 @@
+sample,all,mtf,mt,rt_motif,rt_mt,Subject,timePoint,Group,PD_duration,Sex,Ethnicity,Age_timepoint,Genetic_background,PD_meds,MoCA,s_Study,Type_of_surgery_for_Parkinson_disease_term,surgery,cond
+1_V08,500000,2559,3680,0.5118,0.736,1,V08,Healthy Control,NA,Female,Black_or_African_American,90,LRRK2-/SNCA-/GBA-,UnKnown,27,phase1,NA,No,Control
+2_V06,500000,7997,1691,1.5994,0.3382,2,V06,Genetic Registry - PD,NA,Male,Unknown,89,LRRK2+,UnKnown,15,phase2,DBS (Deep Brain Stimulation),DBS,PD
+3_V08,500000,2842,6811,0.5684,1.3622,3,V08,Healthy Control,NA,Female,White,88,LRRK2-/SNCA-/GBA-,UnKnown,26,phase1,NA,No,Control
+4_V08,500000,7065,1828,1.413,0.3656,4,V08,Parkinson's disease,5,Male,White,87,LRRK2-/SNCA-/GBA-,Levodopa,20,phase1,NA,No,PD
+5_V08,500000,7295,1797,1.459,0.3594,5,V08,Parkinson's disease,3,Male,White,86,LRRK2-/SNCA-/GBA-,Levodopa,19,phase1,NA,No,PD
+6_V08,500000,5568,2322,1.1136,0.4644,6,V08,Parkinson's disease,3,Male,White,86,LRRK2-/SNCA-/GBA-,Levodopa,24,phase1,NA,No,PD
+7_V08,500000,3279,4438,0.6558,0.8876,7,V08,Healthy Control,NA,Male,White,85,LRRK2-/SNCA-/GBA-,UnKnown,16,phase1,NA,No,Control
+8_V08,500000,2576,3676,0.5152,0.7352,8,V08,Healthy Control,NA,Female,White,85,LRRK2-/SNCA-/GBA-,UnKnown,27,phase1,NA,No,Control
+9_V08,500000,2060,5184,0.412,1.0368,9,V08,Healthy Control,NA,Male,White,85,LRRK2-/SNCA-/GBA-,UnKnown,29,phase1,NA,No,Control
+10_V08,500000,18684,1456,3.7368,0.2912,10,V08,Prodromal,NA,Male,White,84,LRRK2-/SNCA-/GBA-,non,15,phase2,NA,No,Prodromal
+11_V08,500000,3237,4579,0.6474,0.9158,11,V08,Genetic Cohort - Unaffected,NA,Female,White,83,LRRK2+,UnKnown,23,phase2,NA,No,Control
+12_V08,500000,2587,3671,0.5174,0.7342,12,V08,Healthy Control,NA,Male,White,83,LRRK2-/SNCA-/GBA-,UnKnown,27,phase1,NA,No,Control
+13_V08,500000,2297,4770,0.4594,0.954,13,V08,Healthy Control,NA,Female,White,83,LRRK2-/SNCA-/GBA-,UnKnown,28,phase1,NA,No,Control
+14_V08,500000,1714,6994,0.3428,1.3988,14,V08,Healthy Control,NA,Male,White,83,LRRK2-/SNCA-/GBA-,UnKnown,30,phase1,NA,No,Control
+15_V08,500000,3586,3317,0.7172,0.6634,15,V08,Parkinson's disease,3,Female,White,83,LRRK2-/SNCA-/GBA-,Levodopa,30,phase1,NA,No,PD
+16_V08,500000,6118,2076,1.2236,0.4152,16,V08,Parkinson's disease,4,Male,White,82,LRRK2-/SNCA-/GBA-,Levodopa,22,phase1,NA,No,PD
+17_V08,500000,5721,2224,1.1442,0.4448,17,V08,Parkinson's disease,5,Female,White,82,LRRK2-/SNCA-/GBA-,Levodopa,23,phase1,NA,No,PD
+18_V08,500000,5575,2320,1.115,0.464,18,V08,Parkinson's disease,4,Male,White,82,LRRK2-/SNCA-/GBA-,Levodopa,24,phase1,NA,No,PD
+19_V08,500000,4102,2816,0.8204,0.5632,19,V08,Parkinson's disease,4,Male,White,82,LRRK2-/SNCA-/GBA-,Levodopa,28,phase1,NA,No,PD
+20_V08,500000,7377,1795,1.4754,0.359,20,V08,Parkinson's disease,4,Male,White,81,LRRK2-/SNCA-/GBA-,Levodopa,19,phase1,NA,No,PD
+21_V08,500000,2593,3663,0.5186,0.7326,21,V08,Healthy Control,NA,Male,White,81,LRRK2-/SNCA-/GBA-,UnKnown,27,phase1,NA,No,Control
+22_V08,500000,4115,2807,0.823,0.5614,22,V08,Parkinson's disease,3,Male,White,81,LRRK2-/SNCA-/GBA-,Levodopa,28,phase1,NA,No,PD
+23_V08,500000,4301,2676,0.8602,0.5352,23,V08,Genetic Cohort - PD,5,Female,White,81,LRRK2+,Levodopa,28,phase2,NA,No,PD
+24_V08,500000,3370,3997,0.674,0.7994,24,V08,Parkinson's disease,6,Female,White,81,LRRK2-/SNCA-/GBA-,Levodopa,31,phase1,NA,No,PD
+25_BL,500000,7949,1694,1.5898,0.3388,25,BL,Genetic Registry - PD,NA,Male,Unknown,80,LRRK2+,Levodopa,16,phase2,DBS (Deep Brain Stimulation),DBS,PD
+26_V08,500000,6166,2074,1.2332,0.4148,26,V08,Parkinson's disease,3,Male,White,80,LRRK2-/SNCA-/GBA-,DopamineAgonist,22,phase1,NA,No,PD
+27_V08,500000,3187,5598,0.6374,1.1196,27,V08,Healthy Control,NA,Male,White,80,LRRK2-/SNCA-/GBA-,UnKnown,24,phase1,NA,No,Control
+28_V08,500000,4726,2441,0.9452,0.4882,28,V08,Parkinson's disease,3,Male,White,80,LRRK2-/SNCA-/GBA-,Levodopa,26,phase1,NA,No,PD
+29_V08,500000,3848,3040,0.7696,0.608,29,V08,Parkinson's disease,4,Female,White,80,LRRK2-/SNCA-/GBA-,Levodopa,29,phase1,NA,No,PD
+30_V08,500000,3588,3311,0.7176,0.6622,30,V08,Parkinson's disease,4,Male,White,80,LRRK2-/SNCA-/GBA-,Levodopa,30,phase1,NA,No,PD
+31_V08,500000,8076,1677,1.6152,0.3354,31,V08,Parkinson's disease,4,Female,White,79,LRRK2-/SNCA-/GBA-,Levodopa,12,phase1,NA,No,PD
+32_V08,500000,7731,1745,1.5462,0.349,32,V08,Parkinson's disease,3,Male,White,79,LRRK2-/SNCA-/GBA-,Levodopa,17,phase1,NA,No,PD
+33_V08,500000,11202,1477,2.2404,0.2954,33,V08,Prodromal,NA,Male,Hispanic_or_Latino,79,LRRK2-/SNCA-/GBA-,non,20,phase2,NA,No,Prodromal
+34_V08,500000,3046,5929,0.6092,1.1858,34,V08,Healthy Control,NA,Male,White,79,LRRK2-/SNCA-/GBA-,UnKnown,25,phase1,NA,No,Control
+35_V08,500000,3027,5943,0.6054,1.1886,35,V08,Genetic Cohort - Unaffected,NA,Female,White,79,LRRK2+,UnKnown,26,phase2,NA,No,Control
+36_V08,500000,4339,2653,0.8678,0.5306,36,V08,Parkinson's disease,4,Male,Hispanic_or_Latino,79,LRRK2-/SNCA-/GBA-,Levodopa,27,phase1,DBS (Deep Brain Stimulation),No,PD
+37_V08,500000,7015,1846,1.403,0.3692,37,V08,Genetic Cohort - PD,6,Male,Hispanic_or_Latino,78,LRRK2+,Levodopa,21,phase2,NA,No,PD
+38_V08,500000,6187,2069,1.2374,0.4138,38,V08,Parkinson's disease,4,Male,African_Berber,78,LRRK2-/SNCA-/GBA-,Levodopa,22,phase1,NA,No,PD
+39_V08,500000,3226,4612,0.6452,0.9224,39,V08,Healthy Control,NA,Male,White,78,LRRK2-/SNCA-/GBA-,UnKnown,23,phase1,NA,No,Control
+40_V08,500000,5136,1078,1.0272,0.2156,40,V08,Parkinson's disease,3,Female,White,78,LRRK2-/SNCA-/GBA-,Levodopa,25,phase1,NA,No,PD
+41_V08,500000,4737,2437,0.9474,0.4874,41,V08,Parkinson's disease,3,Male,White,78,LRRK2-/SNCA-/GBA-,Levodopa,26,phase1,NA,No,PD
+42_V08,500000,4750,2428,0.95,0.4856,42,V08,Parkinson's disease,4,Male,White,78,LRRK2-/SNCA-/GBA-,DopamineAgonist,26,phase1,NA,No,PD
+43_V08,500000,2310,4745,0.462,0.949,43,V08,Healthy Control,NA,Male,White,78,LRRK2-/SNCA-/GBA-,UnKnown,28,phase1,NA,No,Control
+44_V08,500000,8464,1634,1.6928,0.3268,44,V08,Prodromal,NA,Female,White,78,LRRK2-/SNCA-/GBA-,non,29,phase2,NA,No,Prodromal
+45_V08,500000,1723,6989,0.3446,1.3978,45,V08,Healthy Control,NA,Male,White,78,LRRK2-/SNCA-/GBA-,UnKnown,30,phase1,NA,No,Control
+46_V08,500000,3309,4302,0.6618,0.8604,46,V08,Parkinson's disease,5,Female,White,78,LRRK2-/SNCA-/GBA-,Levodopa,NA,phase1,NA,No,PD
+47_V08,500000,3307,4353,0.6614,0.8706,47,V08,Genetic Cohort - PD,9,Female,White,78,LRRK2+,Levodopa,NA,phase2,NA,No,PD
+48_V08,500000,7619,1777,1.5238,0.3554,48,V08,Parkinson's disease,3,Male,White,77,LRRK2-/SNCA-/GBA-,Levodopa,18,phase1,NA,No,PD
+49_V08,500000,6215,2067,1.243,0.4134,49,V08,Parkinson's disease,4,Male,Ashkenazi_Jewish,77,LRRK2-/SNCA-/GBA-,non,22,phase1,NA,No,PD
+50_V08,500000,9451,1494,1.8902,0.2988,50,V08,Prodromal,NA,Male,Hispanic_or_Latino,77,LRRK2-/SNCA-/GBA-,non,22,phase2,NA,No,Prodromal
+51_V08,500000,3049,5823,0.6098,1.1646,51,V08,Healthy Control,NA,Male,White,77,LRRK2-/SNCA-/GBA-,UnKnown,25,phase1,NA,No,Control
+52_V08,500000,4758,2427,0.9516,0.4854,52,V08,Parkinson's disease,4,Female,White,77,LRRK2-/SNCA-/GBA-,DopamineAgonist,26,phase1,NA,No,PD
+53_V08,500000,4791,2426,0.9582,0.4852,53,V08,Parkinson's disease,3,Male,Ashkenazi_Jewish,77,LRRK2+,Levodopa,26,phase1,NA,No,PD
+54_V08,500000,4339,2614,0.8678,0.5228,54,V08,Parkinson's disease,3,Male,Asian,77,LRRK2-/SNCA-/GBA-,Other,27,phase1,NA,No,PD
+55_V08,500000,4126,2806,0.8252,0.5612,55,V08,Parkinson's disease,4,Female,Black_or_African_American,77,LRRK2-/SNCA-/GBA-,Levodopa,28,phase1,NA,No,PD
+56_V08,500000,2067,5123,0.4134,1.0246,56,V08,Healthy Control,NA,Male,White,77,LRRK2-/SNCA-/GBA-,UnKnown,29,phase1,NA,No,Control
+57_V08,500000,3860,3039,0.772,0.6078,57,V08,Parkinson's disease,3,Male,White,77,LRRK2-/SNCA-/GBA-,Levodopa,29,phase1,NA,No,PD
+58_V08,500000,7822,1736,1.5644,0.3472,58,V08,Parkinson's disease,3,Male,White,76,LRRK2-/SNCA-/GBA-,Levodopa,17,phase1,NA,No,PD
+59_V08,500000,3263,4488,0.6526,0.8976,59,V08,Healthy Control,NA,Female,White,76,LRRK2-/SNCA-/GBA-,UnKnown,20,phase1,NA,No,Control
+60_V08,500000,7158,1824,1.4316,0.3648,60,V08,Parkinson's disease,4,Male,White,76,GBA+,Levodopa,20,phase1,NA,No,PD
+61_V08,500000,7118,1827,1.4236,0.3654,61,V08,Parkinson's disease,3,Male,White,76,LRRK2-/SNCA-/GBA-,Levodopa,20,phase1,NA,No,PD
+62_V06,500000,7039,1844,1.4078,0.3688,62,V06,Genetic Registry - PD,NA,Male,Unknown,76,LRRK2+,Levodopa,21,phase2,DBS (Deep Brain Stimulation),DBS,PD
+63_V08,500000,6218,2063,1.2436,0.4126,63,V08,Parkinson's disease,3,Male,White,76,LRRK2-/SNCA-/GBA-,Levodopa,22,phase1,NA,No,PD
+64_V08,500000,5758,2221,1.1516,0.4442,64,V08,Parkinson's disease,4,Male,White,76,LRRK2-/SNCA-/GBA-,Levodopa,23,phase1,NA,No,PD
+65_V08,500000,4353,2607,0.8706,0.5214,65,V08,Parkinson's disease,3,Female,White,76,LRRK2-/SNCA-/GBA-,Levodopa,27,phase1,NA,No,PD
+66_V08,500000,4135,2788,0.827,0.5576,66,V08,Parkinson's disease,3,Male,White,76,LRRK2-/SNCA-/GBA-,non,28,phase1,NA,No,PD
+67_V08,500000,2348,4734,0.4696,0.9468,67,V08,Healthy Control,NA,Male,White,76,LRRK2-/SNCA-/GBA-,UnKnown,28,phase1,NA,No,Control
+68_V08,500000,2376,3806,0.4752,0.7612,68,V08,Healthy Control,NA,Male,Ashkenazi_Jewish,76,LRRK2-/SNCA-/GBA-,UnKnown,28,phase1,NA,No,Control
+69_V08,500000,3610,3291,0.722,0.6582,69,V08,Parkinson's disease,4,Female,White,76,GBA+,Levodopa,30,phase1,NA,No,PD
+70_V08,500000,3600,3302,0.72,0.6604,70,V08,Parkinson's disease,5,Male,White,76,LRRK2-/SNCA-/GBA-,non,30,phase1,NA,No,PD
+71_V08,500000,8077,1672,1.6154,0.3344,71,V08,Parkinson's disease,3,Female,White,75,LRRK2-/SNCA-/GBA-,Levodopa,12,phase1,NA,No,PD
+72_V08,500000,7170,1823,1.434,0.3646,72,V08,Parkinson's disease,3,Male,White,75,LRRK2-/SNCA-/GBA-,Levodopa,20,phase1,NA,No,PD
+73_V08,500000,6638,1999,1.3276,0.3998,73,V08,Parkinson's disease,5,Male,White,75,LRRK2-/SNCA-/GBA-,DopamineAgonist,21,phase1,NA,No,PD
+74_V08,500000,11025,1493,2.205,0.2986,74,V08,Prodromal,NA,Male,Hispanic_or_Latino,75,LRRK2-/SNCA-/GBA-,non,22,phase2,NA,No,Prodromal
+75_V08,500000,5774,2216,1.1548,0.4432,75,V08,Parkinson's disease,3,Female,White,75,LRRK2-/SNCA-/GBA-,non,23,phase1,NA,No,PD
+76_V08,500000,5821,2201,1.1642,0.4402,76,V08,Parkinson's disease,3,Male,White,75,LRRK2-/SNCA-/GBA-,Levodopa,23,phase1,NA,No,PD
+77_V08,500000,5783,2210,1.1566,0.442,77,V08,Parkinson's disease,4,Male,Hispanic_or_Latino,75,LRRK2-/SNCA-/GBA-,Levodopa,23,phase1,DBS (Deep Brain Stimulation),DBS,PD
+78_V08,500000,5581,2312,1.1162,0.4624,78,V08,Parkinson's disease,5,Male,White,75,LRRK2-/SNCA-/GBA-,Levodopa,24,phase1,NA,No,PD
+79_V08,500000,2855,6791,0.571,1.3582,79,V08,Healthy Control,NA,Female,White,75,LRRK2-/SNCA-/GBA-,UnKnown,26,phase1,NA,No,Control
+80_V08,500000,4379,2594,0.8758,0.5188,80,V08,Parkinson's disease,5,Male,White,75,LRRK2-/SNCA-/GBA-,Levodopa,27,phase1,NA,No,PD
+81_V08,500000,4356,2607,0.8712,0.5214,81,V08,Parkinson's disease,3,Female,White,75,LRRK2-/SNCA-/GBA-,Levodopa,27,phase1,NA,No,PD
+82_V08,500000,8893,1614,1.7786,0.3228,82,V08,Prodromal,NA,Female,White,75,LRRK2-/SNCA-/GBA-,non,27,phase2,NA,No,Prodromal
+83_V08,500000,2385,3800,0.477,0.76,83,V08,Healthy Control,NA,Male,White,75,LRRK2-/SNCA-/GBA-,UnKnown,28,phase1,NA,No,Control
+84_V06,500000,4316,2676,0.8632,0.5352,84,V06,Genetic Registry - PD,NA,Male,Unknown,75,LRRK2+,UnKnown,28,phase2,DBS (Deep Brain Stimulation),DBS,PD
+85_V08,500000,3875,3034,0.775,0.6068,85,V08,Parkinson's disease,5,Male,Ashkenazi_Jewish,75,LRRK2-/SNCA-/GBA-,Other,29,phase1,NA,No,PD
+86_V08,500000,3862,3035,0.7724,0.607,86,V08,Parkinson's disease,3,Female,White,75,LRRK2-/SNCA-/GBA-,Levodopa,29,phase1,NA,No,PD
+87_V08,500000,3278,4440,0.6556,0.888,87,V08,Healthy Control,NA,Male,White,74,LRRK2-/SNCA-/GBA-,UnKnown,17,phase1,NA,No,Control
+88_V08,500000,7427,1788,1.4854,0.3576,88,V08,Parkinson's disease,4,Male,Asian,74,LRRK2-/SNCA-/GBA-,Levodopa,19,phase1,NA,No,PD
+89_V08,500000,3254,4501,0.6508,0.9002,89,V08,Healthy Control,NA,Female,White,74,LRRK2-/SNCA-/GBA-,UnKnown,21,phase1,NA,No,Control
+90_V08,500000,5871,2196,1.1742,0.4392,90,V08,Parkinson's disease,3,Female,White,74,LRRK2-/SNCA-/GBA-,non,23,phase1,NA,No,PD
+91_V08,500000,5151,1060,1.0302,0.212,91,V08,Parkinson's disease,3,Male,Unknown,74,LRRK2-/SNCA-/GBA-,Levodopa,25,phase1,NA,No,PD
+92_V08,500000,4810,2413,0.962,0.4826,92,V08,Parkinson's disease,4,Male,White,74,LRRK2-/SNCA-/GBA-,Levodopa,26,phase1,NA,No,PD
+93_V08,500000,4801,2424,0.9602,0.4848,93,V08,Parkinson's disease,5,Female,White,74,LRRK2-/SNCA-/GBA-,Levodopa,26,phase1,NA,No,PD
+94_V08,500000,4386,2589,0.8772,0.5178,94,V08,Parkinson's disease,3,Male,White,74,LRRK2-/SNCA-/GBA-,Other,27,phase1,NA,No,PD
+95_V08,500000,4144,2785,0.8288,0.557,95,V08,Parkinson's disease,4,Male,White,74,LRRK2-/SNCA-/GBA-,Levodopa,28,phase1,NA,No,PD
+96_V08,500000,2398,3795,0.4796,0.759,96,V08,Healthy Control,NA,Male,Hispanic_or_Latino,74,LRRK2-/SNCA-/GBA-,UnKnown,28,phase1,NA,No,Control
+97_V08,500000,3892,3023,0.7784,0.6046,97,V08,Parkinson's disease,4,Male,White,74,LRRK2-/SNCA-/GBA-,Levodopa,29,phase1,NA,No,PD
+98_V08,500000,3614,3289,0.7228,0.6578,98,V08,Parkinson's disease,4,Male,White,74,LRRK2-/SNCA-/GBA-,DopamineAgonist,30,phase1,NA,No,PD
+99_V08,500000,1433,8295,0.2866,1.659,99,V08,Healthy Control,NA,Female,White,74,GBA+,UnKnown,31,phase1,NA,No,Control
+100_V08,500000,3376,3960,0.6752,0.792,100,V08,Parkinson's disease,4,Female,White,74,LRRK2-/SNCA-/GBA-,Levodopa,31,phase1,NA,No,PD
+101_V08,500000,511,61472,0.1022,12.2944,101,V08,Healthy Control,NA,Female,White,74,LRRK2-/SNCA-/GBA-,UnKnown,32,phase1,NA,No,Control
+102_V08,500000,7586,1780,1.5172,0.356,102,V08,Genetic Cohort - PD,5,Female,White,73,LRRK2+,Levodopa,19,phase2,NA,No,PD
+103_V08,500000,6651,1986,1.3302,0.3972,103,V08,Parkinson's disease,3,Female,White,73,LRRK2-/SNCA-/GBA-,Levodopa,21,phase1,NA,No,PD
+104_V08,500000,6649,1990,1.3298,0.398,104,V08,Parkinson's disease,3,Male,White,73,LRRK2-/SNCA-/GBA-,Levodopa,21,phase1,NA,No,PD
+105_V08,500000,5593,2312,1.1186,0.4624,105,V08,Parkinson's disease,3,Male,White,73,LRRK2-/SNCA-/GBA-,Levodopa,24,phase1,NA,No,PD
+106_V08,500000,3075,5786,0.615,1.1572,106,V08,Healthy Control,NA,Male,White,73,LRRK2-/SNCA-/GBA-,UnKnown,25,phase1,NA,No,Control
+107_V08,500000,5179,1042,1.0358,0.2084,107,V08,Parkinson's disease,3,Female,White,73,LRRK2-/SNCA-/GBA-,Levodopa,25,phase1,NA,No,PD
+108_V08,500000,3073,5792,0.6146,1.1584,108,V08,Healthy Control,NA,Female,White,73,LRRK2-/SNCA-/GBA-,UnKnown,25,phase1,NA,No,Control
+109_V08,500000,5174,1046,1.0348,0.2092,109,V08,Parkinson's disease,3,Female,White,73,LRRK2-/SNCA-/GBA-,Levodopa,25,phase1,NA,No,PD
+110_V08,500000,5169,1054,1.0338,0.2108,110,V08,Parkinson's disease,4,Male,White,73,LRRK2-/SNCA-/GBA-,Levodopa,25,phase1,NA,No,PD
+111_V08,500000,5158,1059,1.0316,0.2118,111,V08,Parkinson's disease,4,Male,White,73,LRRK2-/SNCA-/GBA-,Levodopa,25,phase1,NA,No,PD
+112_V08,500000,4406,2584,0.8812,0.5168,112,V08,Parkinson's disease,3,Male,White,73,LRRK2+,Levodopa,27,phase1,NA,No,PD
+113_V08,500000,4399,2585,0.8798,0.517,113,V08,Parkinson's disease,4,Male,White,73,LRRK2-/SNCA-/GBA-,Levodopa,27,phase1,NA,No,PD
+114_V08,500000,8997,1566,1.7994,0.3132,114,V08,Prodromal,NA,Male,Hispanic_or_Latino,73,LRRK2-/SNCA-/GBA-,non,27,phase2,NA,No,Prodromal
+115_V08,500000,3895,3013,0.779,0.6026,115,V08,Parkinson's disease,3,Male,White,73,LRRK2-/SNCA-/GBA-,Levodopa,29,phase1,NA,No,PD
+116_V08,500000,3909,3004,0.7818,0.6008,116,V08,Parkinson's disease,3,Male,White,73,LRRK2-/SNCA-/GBA-,Levodopa,29,phase1,NA,No,PD
+117_V08,500000,2096,5041,0.4192,1.0082,117,V08,Healthy Control,NA,Female,White,73,LRRK2-/SNCA-/GBA-,UnKnown,29,phase1,NA,No,Control
+118_V08,500000,1732,6919,0.3464,1.3838,118,V08,Healthy Control,NA,Female,White,73,LRRK2-/SNCA-/GBA-,UnKnown,30,phase1,NA,No,Control
+119_V08,500000,3384,3942,0.6768,0.7884,119,V08,Parkinson's disease,3,Male,White,73,LRRK2-/SNCA-/GBA-,Other,31,phase1,NA,No,PD
+120_V08,500000,3385,3931,0.677,0.7862,120,V08,Parkinson's disease,5,Male,White,73,LRRK2-/SNCA-/GBA-,Levodopa,NA,phase1,NA,No,PD
+121_V08,500000,7443,1785,1.4886,0.357,121,V08,Parkinson's disease,3,Male,White,72,GBA+,Levodopa,19,phase1,NA,No,PD
+122_V08,500000,6664,1974,1.3328,0.3948,122,V08,Parkinson's disease,4,Male,White,72,LRRK2-/SNCA-/GBA-,Levodopa,21,phase1,NA,No,PD
+123_V08,500000,6672,1943,1.3344,0.3886,123,V08,Parkinson's disease,3,Male,White,72,GBA+,Levodopa,21,phase1,NA,No,PD
+124_V08,500000,5596,2311,1.1192,0.4622,124,V08,Parkinson's disease,4,Female,White,72,LRRK2-/SNCA-/GBA-,Levodopa,24,phase1,NA,No,PD
+125_V08,500000,5614,2302,1.1228,0.4604,125,V08,Parkinson's disease,3,Male,White,72,LRRK2-/SNCA-/GBA-,Levodopa,24,phase1,NA,No,PD
+126_V08,500000,5597,2304,1.1194,0.4608,126,V08,Parkinson's disease,3,Male,White,72,LRRK2-/SNCA-/GBA-,DopamineAgonist,24,phase1,NA,No,PD
+127_V08,500000,5620,2288,1.124,0.4576,127,V08,Parkinson's disease,3,Male,White,72,LRRK2-/SNCA-/GBA-,DopamineAgonist,24,phase1,NA,No,PD
+128_BL,500000,5712,2242,1.1424,0.4484,128,BL,Genetic Registry - PD,NA,Female,Unknown,72,LRRK2+,Levodopa,24,phase2,DBS (Deep Brain Stimulation),DBS,PD
+129_V08,500000,3079,5744,0.6158,1.1488,129,V08,Healthy Control,NA,Male,White,72,LRRK2-/SNCA-/GBA-,UnKnown,25,phase1,NA,No,Control
+130_V08,500000,2607,3646,0.5214,0.7292,130,V08,Healthy Control,NA,Female,White,72,GBA+,UnKnown,27,phase1,NA,No,Control
+131_V08,500000,4411,2573,0.8822,0.5146,131,V08,Parkinson's disease,4,Male,White,72,LRRK2-/SNCA-/GBA-,Levodopa,27,phase1,NA,No,PD
+132_V08,500000,4410,2578,0.882,0.5156,132,V08,Parkinson's disease,4,Male,White,72,LRRK2-/SNCA-/GBA-,Levodopa,27,phase1,NA,No,PD
+133_V08,500000,2595,3652,0.519,0.7304,133,V08,Healthy Control,NA,Female,Ashkenazi_Jewish,72,LRRK2-/SNCA-/GBA-,UnKnown,27,phase1,NA,No,Control
+134_V08,500000,2551,3701,0.5102,0.7402,134,V08,Genetic Cohort - Unaffected,NA,Female,Ashkenazi_Jewish,72,LRRK2+,UnKnown,28,phase2,NA,No,Control
+135_V08,500000,3910,2995,0.782,0.599,135,V08,Parkinson's disease,4,Female,White,72,LRRK2-/SNCA-/GBA-,Levodopa,29,phase1,NA,No,PD
+136_V08,500000,2110,5021,0.422,1.0042,136,V08,Healthy Control,NA,Male,White,72,LRRK2-/SNCA-/GBA-,UnKnown,29,phase1,NA,No,Control
+137_V08,500000,3925,2984,0.785,0.5968,137,V08,Parkinson's disease,3,Female,White,72,LRRK2-/SNCA-/GBA-,Levodopa,29,phase1,NA,No,PD
+138_V08,500000,3790,3071,0.758,0.6142,138,V08,Genetic Cohort - PD,4,Male,Ashkenazi_Jewish,72,LRRK2+,Levodopa,30,phase2,NA,No,PD
+139_V08,500000,862,16692,0.1724,3.3384,139,V08,Healthy Control,NA,Female,White,72,LRRK2-/SNCA-/GBA-,UnKnown,32,phase1,NA,No,Control
+140_V08,500000,8338,1664,1.6676,0.3328,140,V08,Parkinson's disease,4,Male,White,71,LRRK2-/SNCA-/GBA-,Levodopa,10,phase1,NA,No,PD
+141_V08,500000,7230,1821,1.446,0.3642,141,V08,Parkinson's disease,3,Male,White,71,LRRK2-/SNCA-/GBA-,DopamineAgonist,20,phase1,NA,No,PD
+142_V08,500000,5181,1039,1.0362,0.2078,142,V08,Parkinson's disease,5,Female,White,71,LRRK2-/SNCA-/GBA-,DopamineAgonist,25,phase1,NA,No,PD
+143_V08,500000,4823,2412,0.9646,0.4824,143,V08,Parkinson's disease,3,Male,White,71,LRRK2-/SNCA-/GBA-,Other,26,phase1,NA,No,PD
+144_V08,500000,2630,3545,0.526,0.709,144,V08,Healthy Control,NA,Male,White,71,LRRK2-/SNCA-/GBA-,UnKnown,27,phase1,NA,No,Control
+145_V08,500000,2620,3580,0.524,0.716,145,V08,Healthy Control,NA,Male,White,71,LRRK2-/SNCA-/GBA-,UnKnown,27,phase1,NA,No,Control
+146_V08,500000,2622,3556,0.5244,0.7112,146,V08,Healthy Control,NA,Female,White,71,LRRK2-/SNCA-/GBA-,UnKnown,27,phase1,NA,No,Control
+147_V08,500000,2609,3616,0.5218,0.7232,147,V08,Healthy Control,NA,Male,White,71,LRRK2-/SNCA-/GBA-,UnKnown,27,phase1,NA,No,Control
+148_V08,500000,4422,2568,0.8844,0.5136,148,V08,Parkinson's disease,3,Male,White,71,LRRK2-/SNCA-/GBA-,Levodopa,27,phase1,NA,No,PD
+149_V08,500000,4147,2774,0.8294,0.5548,149,V08,Parkinson's disease,3,Male,White,71,LRRK2-/SNCA-/GBA-,non,28,phase1,NA,No,PD
+150_V08,500000,2427,3794,0.4854,0.7588,150,V08,Healthy Control,NA,Male,White,71,LRRK2-/SNCA-/GBA-,UnKnown,28,phase1,NA,No,Control
+151_V08,500000,4146,2776,0.8292,0.5552,151,V08,Parkinson's disease,3,Female,Asian,71,LRRK2-/SNCA-/GBA-,Levodopa,28,phase1,NA,No,PD
+152_V08,500000,2112,4984,0.4224,0.9968,152,V08,Healthy Control,NA,Female,Asian,71,LRRK2-/SNCA-/GBA-,UnKnown,29,phase1,NA,No,Control
+153_V08,500000,3617,3284,0.7234,0.6568,153,V08,Parkinson's disease,5,Male,White,71,LRRK2-/SNCA-/GBA-,Levodopa,30,phase1,NA,No,PD
+154_V08,500000,3614,3285,0.7228,0.657,154,V08,Parkinson's disease,3,Female,White,71,GBA+,Levodopa,30,phase1,NA,No,PD
+155_V08,500000,942,16400,0.1884,3.28,155,V08,Healthy Control,NA,Male,White,71,LRRK2-/SNCA-/GBA-,UnKnown,32,phase1,NA,No,Control
+156_V08,500000,6679,1937,1.3358,0.3874,156,V08,Parkinson's disease,3,Male,White,70,LRRK2-/SNCA-/GBA-,non,21,phase1,NA,No,PD
+157_V08,500000,6682,1933,1.3364,0.3866,157,V08,Parkinson's disease,4,Male,White,70,LRRK2-/SNCA-/GBA-,Levodopa,21,phase1,NA,No,PD
+158_V08,500000,5874,2151,1.1748,0.4302,158,V08,Parkinson's disease,4,Male,White,70,LRRK2-/SNCA-/GBA-,Levodopa,23,phase1,NA,No,PD
+159_V08,500000,3233,4600,0.6466,0.92,159,V08,Healthy Control,NA,Male,White,70,LRRK2-/SNCA-/GBA-,UnKnown,23,phase1,NA,No,Control
+160_V08,500000,5638,2282,1.1276,0.4564,160,V08,Parkinson's disease,4,Male,White,70,LRRK2-/SNCA-/GBA-,Other,24,phase1,NA,No,PD
+161_V08,500000,3096,5728,0.6192,1.1456,161,V08,Healthy Control,NA,Male,White,70,LRRK2-/SNCA-/GBA-,UnKnown,25,phase1,NA,No,Control
+162_V08,500000,5210,1013,1.042,0.2026,162,V08,Parkinson's disease,4,Male,White,70,LRRK2-/SNCA-/GBA-,Other,25,phase1,NA,No,PD
+163_V08,500000,4846,2400,0.9692,0.48,163,V08,Parkinson's disease,4,Female,White,70,LRRK2-/SNCA-/GBA-,DopamineAgonist,26,phase1,NA,No,PD
+164_V08,500000,4860,1437,0.972,0.2874,164,V08,Parkinson's disease,4,Female,White,70,LRRK2-/SNCA-/GBA-,Levodopa,26,phase1,NA,No,PD
+165_V08,500000,4843,2403,0.9686,0.4806,165,V08,Parkinson's disease,4,Male,White,70,GBA+,Levodopa,26,phase1,NA,No,PD
+166_V08,500000,4834,2403,0.9668,0.4806,166,V08,Parkinson's disease,4,Male,White,70,LRRK2-/SNCA-/GBA-,Levodopa,26,phase1,NA,No,PD
+167_V08,500000,9016,1560,1.8032,0.312,167,V08,Prodromal,NA,Female,Hispanic_or_Latino,70,GBA+,non,26,phase2,NA,No,Prodromal
+168_V08,500000,4147,2768,0.8294,0.5536,168,V08,Parkinson's disease,3,Female,White,70,LRRK2-/SNCA-/GBA-,non,28,phase1,NA,No,PD
+169_V08,500000,4318,2672,0.8636,0.5344,169,V08,Genetic Cohort - PD,9,Female,Hispanic_or_Latino,70,LRRK2+,Levodopa,28,phase2,NA,No,PD
+170_V08,500000,2165,4948,0.433,0.9896,170,V08,Healthy Control,NA,Male,White,70,LRRK2-/SNCA-/GBA-,UnKnown,29,phase1,NA,No,Control
+171_V08,500000,1771,6873,0.3542,1.3746,171,V08,Healthy Control,NA,Female,Hispanic_or_Latino,70,LRRK2-/SNCA-/GBA-,UnKnown,30,phase1,NA,No,Control
+172_V08,500000,1025,15595,0.205,3.119,172,V08,Healthy Control,NA,Female,Ashkenazi_Jewish,70,LRRK2-/SNCA-/GBA-,UnKnown,32,phase1,NA,No,Control
+173_V08,500000,3368,4023,0.6736,0.8046,173,V08,Genetic Cohort - PD,6,Male,Basque,70,LRRK2+,Levodopa,32,phase2,NA,No,PD
+174_V08,500000,3201,5573,0.6402,1.1146,174,V08,Healthy Control,NA,Female,White,69,LRRK2-/SNCA-/GBA-,UnKnown,24,phase1,NA,No,Control
+175_V08,500000,5648,2273,1.1296,0.4546,175,V08,Parkinson's disease,3,Male,Black_or_African_American,69,LRRK2-/SNCA-/GBA-,Levodopa,24,phase1,NA,No,PD
+176_V08,500000,5650,2270,1.13,0.454,176,V08,Parkinson's disease,3,Male,Hispanic_or_Latino,69,LRRK2-/SNCA-/GBA-,Levodopa,24,phase1,NA,No,PD
+177_V08,500000,5283,962,1.0566,0.1924,177,V08,Parkinson's disease,3,Male,White,69,LRRK2-/SNCA-/GBA-,Levodopa,25,phase1,NA,No,PD
+178_V08,500000,5249,972,1.0498,0.1944,178,V08,Parkinson's disease,3,Male,White,69,LRRK2-/SNCA-/GBA-,Levodopa,25,phase1,NA,No,PD
+179_V08,500000,3105,5716,0.621,1.1432,179,V08,Healthy Control,NA,Male,White,69,LRRK2-/SNCA-/GBA-,UnKnown,25,phase1,NA,No,Control
+180_V08,500000,4846,2396,0.9692,0.4792,180,V08,Parkinson's disease,4,Female,White,69,LRRK2-/SNCA-/GBA-,DopamineAgonist,26,phase1,NA,No,PD
+181_V08,500000,2860,6761,0.572,1.3522,181,V08,Healthy Control,NA,Male,White,69,LRRK2-/SNCA-/GBA-,UnKnown,26,phase1,NA,No,Control
+182_V08,500000,2630,3543,0.526,0.7086,182,V08,Healthy Control,NA,Female,White,69,LRRK2-/SNCA-/GBA-,UnKnown,27,phase1,NA,No,Control
+183_V08,500000,2644,3528,0.5288,0.7056,183,V08,Healthy Control,NA,Female,White,69,LRRK2-/SNCA-/GBA-,UnKnown,27,phase1,NA,No,Control
+184_V08,500000,4429,2564,0.8858,0.5128,184,V08,Parkinson's disease,3,Female,White,69,LRRK2-/SNCA-/GBA-,DopamineAgonist,27,phase1,NA,No,PD
+185_V08,500000,2642,3531,0.5284,0.7062,185,V08,Healthy Control,NA,Male,White,69,LRRK2-/SNCA-/GBA-,UnKnown,27,phase1,NA,No,Control
+186_V08,500000,4160,2768,0.832,0.5536,186,V08,Parkinson's disease,3,Male,White,69,LRRK2+,Levodopa,28,phase1,NA,No,PD
+187_BL,500000,4325,2671,0.865,0.5342,187,BL,Genetic Registry - PD,NA,Male,Unknown,69,LRRK2+,UnKnown,28,phase2,DBS (Deep Brain Stimulation),DBS,PD
+188_V08,500000,2172,4936,0.4344,0.9872,188,V08,Healthy Control,NA,Male,White,69,LRRK2-/SNCA-/GBA-,UnKnown,29,phase1,NA,No,Control
+189_V08,500000,3628,3276,0.7256,0.6552,189,V08,Parkinson's disease,3,Female,White,69,LRRK2-/SNCA-/GBA-,Levodopa,30,phase1,NA,No,PD
+190_V08,500000,8352,1644,1.6704,0.3288,190,V08,Prodromal,NA,Female,Am_Indian_or_Alaska_Native,69,LRRK2-/SNCA-/GBA-,non,30,phase2,NA,No,Prodromal
+191_V08,500000,3387,3930,0.6774,0.786,191,V08,Parkinson's disease,3,Male,White,69,LRRK2-/SNCA-/GBA-,Levodopa,31,phase1,NA,No,PD
+192_V08,500000,1502,8263,0.3004,1.6526,192,V08,Healthy Control,NA,Male,White,69,LRRK2-/SNCA-/GBA-,UnKnown,31,phase1,NA,No,Control
+193_BL,500000,3568,3321,0.7136,0.6642,193,BL,Genetic Registry - PD,NA,Male,Unknown,69,LRRK2+,UnKnown,31,phase2,DBS (Deep Brain Stimulation),DBS,PD
+194_V08,500000,3298,4368,0.6596,0.8736,194,V08,Parkinson's disease,4,Female,White,68,LRRK2-/SNCA-/GBA-,Levodopa,18,phase1,NA,No,PD
+195_V08,500000,13234,1471,2.6468,0.2942,195,V08,Prodromal,NA,Male,White,68,GBA+,non,19,phase2,NA,No,Prodromal
+196_V08,500000,7234,1814,1.4468,0.3628,196,V08,Parkinson's disease,4,Male,White,68,LRRK2-/SNCA-/GBA-,DopamineAgonist,20,phase1,NA,No,PD
+197_V08,500000,5882,2127,1.1764,0.4254,197,V08,Parkinson's disease,3,Female,White,68,GBA+,Levodopa,23,phase1,NA,No,PD
+198_V08,500000,5314,893,1.0628,0.1786,198,V08,Parkinson's disease,3,Female,Am_Indian_or_Alaska_Native,68,LRRK2-/SNCA-/GBA-,DopamineAgonist,25,phase1,NA,No,PD
+199_V08,500000,5302,907,1.0604,0.1814,199,V08,Parkinson's disease,4,Male,Hispanic_or_Latino,68,LRRK2-/SNCA-/GBA-,Levodopa,25,phase1,NA,No,PD
+200_V08,500000,2862,6732,0.5724,1.3464,200,V08,Healthy Control,NA,Male,White,68,LRRK2-/SNCA-/GBA-,UnKnown,26,phase1,NA,No,Control
+201_V08,500000,4855,1451,0.971,0.2902,201,V08,Parkinson's disease,3,Male,Unknown,68,LRRK2-/SNCA-/GBA-,Levodopa,26,phase1,NA,No,PD
+202_V08,500000,4454,2563,0.8908,0.5126,202,V08,Parkinson's disease,4,Male,White,68,LRRK2-/SNCA-/GBA-,DopamineAgonist,27,phase1,NA,No,PD
+203_V08,500000,2644,3527,0.5288,0.7054,203,V08,Healthy Control,NA,Male,White,68,LRRK2-/SNCA-/GBA-,UnKnown,27,phase1,NA,No,Control
+204_V08,500000,4176,2739,0.8352,0.5478,204,V08,Parkinson's disease,3,Female,White,68,LRRK2-/SNCA-/GBA-,Levodopa,28,phase1,NA,No,PD
+205_V08,500000,4175,2762,0.835,0.5524,205,V08,Parkinson's disease,3,Male,White,68,LRRK2-/SNCA-/GBA-,Levodopa,28,phase1,NA,No,PD
+206_V08,500000,2432,3778,0.4864,0.7556,206,V08,Healthy Control,NA,Male,Black_or_African_American,68,LRRK2-/SNCA-/GBA-,UnKnown,28,phase1,NA,No,Control
+207_V08,500000,3628,3270,0.7256,0.654,207,V08,Parkinson's disease,3,Female,White,68,GBA+,Levodopa,30,phase1,NA,No,PD
+208_V08,500000,1774,5530,0.3548,1.106,208,V08,Healthy Control,NA,Male,White,68,LRRK2-/SNCA-/GBA-,UnKnown,30,phase1,NA,No,Control
+209_V08,500000,6218,2058,1.2436,0.4116,209,V08,Parkinson's disease,4,Male,White,67,GBA+,Other,22,phase1,NA,No,PD
+210_V08,500000,3244,4563,0.6488,0.9126,210,V08,Healthy Control,NA,Male,White,67,LRRK2-/SNCA-/GBA-,UnKnown,22,phase1,NA,No,Control
+211_V08,500000,5895,2117,1.179,0.4234,211,V08,Parkinson's disease,3,Male,White,67,LRRK2-/SNCA-/GBA-,Levodopa,23,phase1,NA,No,PD
+212_V08,500000,5892,2124,1.1784,0.4248,212,V08,Parkinson's disease,5,Male,White,67,LRRK2-/SNCA-/GBA-,Levodopa,23,phase1,NA,No,PD
+213_V04,500000,6078,2083,1.2156,0.4166,213,V04,Genetic Cohort - PD,8,Male,Ashkenazi_Jewish,67,GBA+,Levodopa,23,phase2,DBS (Deep Brain Stimulation),DBS,PD
+214_V08,500000,9328,1504,1.8656,0.3008,214,V08,Prodromal,NA,Male,White,67,LRRK2-/SNCA-/GBA-,DopamineAgonist,23,phase2,NA,No,Prodromal
+215_V08,500000,3203,5571,0.6406,1.1142,215,V08,Healthy Control,NA,Female,White,67,LRRK2-/SNCA-/GBA-,UnKnown,24,phase1,NA,No,Control
+216_V08,500000,5349,786,1.0698,0.1572,216,V08,Parkinson's disease,3,Female,Asian,67,LRRK2-/SNCA-/GBA-,DopamineAgonist,25,phase1,NA,No,PD
+217_V08,500000,5339,869,1.0678,0.1738,217,V08,Parkinson's disease,3,Male,Ashkenazi_Jewish,67,LRRK2-/SNCA-/GBA-,DopamineAgonist,25,phase1,NA,No,PD
+218_V08,500000,3136,5623,0.6272,1.1246,218,V08,Genetic Cohort - Unaffected,NA,Female,White,67,LRRK2+,UnKnown,25,phase2,NA,No,Control
+219_V08,500000,4479,2547,0.8958,0.5094,219,V08,Parkinson's disease,3,Male,White,67,LRRK2-/SNCA-/GBA-,Levodopa,27,phase1,NA,No,PD
+220_V08,500000,4457,2562,0.8914,0.5124,220,V08,Parkinson's disease,3,Male,White,67,LRRK2-/SNCA-/GBA-,Levodopa,27,phase1,NA,No,PD
+221_V08,500000,2652,3468,0.5304,0.6936,221,V08,Healthy Control,NA,Male,White,67,LRRK2-/SNCA-/GBA-,UnKnown,27,phase1,NA,No,Control
+222_V08,500000,2651,3518,0.5302,0.7036,222,V08,Healthy Control,NA,Female,White,67,LRRK2-/SNCA-/GBA-,UnKnown,27,phase1,NA,No,Control
+223_V08,500000,4474,2552,0.8948,0.5104,223,V08,Parkinson's disease,4,Male,White,67,GBA+,DopamineAgonist,27,phase1,NA,No,PD
+224_V08,500000,3638,3261,0.7276,0.6522,224,V08,Parkinson's disease,3,Male,White,67,LRRK2-/SNCA-/GBA-,Levodopa,30,phase1,NA,No,PD
+225_V08,500000,3408,3920,0.6816,0.784,225,V08,Parkinson's disease,4,Male,White,67,LRRK2-/SNCA-/GBA-,DopamineAgonist,31,phase1,NA,No,PD
+226_V08,500000,3394,3928,0.6788,0.7856,226,V08,Parkinson's disease,3,Female,White,67,LRRK2-/SNCA-/GBA-,Levodopa,31,phase1,NA,No,PD
+227_V08,500000,1045,14482,0.209,2.8964,227,V08,Healthy Control,NA,Male,Am_Indian_or_Alaska_Native,67,LRRK2-/SNCA-/GBA-,UnKnown,32,phase1,NA,No,Control
+228_V08,500000,7906,1706,1.5812,0.3412,228,V08,Parkinson's disease,3,Female,White,66,LRRK2+,non,16,phase1,NA,No,PD
+229_V08,500000,7830,1717,1.566,0.3434,229,V08,Parkinson's disease,3,Female,White,66,GBA+,DopamineAgonist,16,phase1,NA,No,PD
+230_V08,500000,6289,2044,1.2578,0.4088,230,V08,Parkinson's disease,3,Male,White,66,GBA+,Levodopa,22,phase1,NA,No,PD
+231_V08,500000,6270,2050,1.254,0.41,231,V08,Parkinson's disease,3,Female,White,66,GBA+,DopamineAgonist,22,phase1,NA,No,PD
+232_V08,500000,6321,2043,1.2642,0.4086,232,V08,Parkinson's disease,3,Male,White,66,LRRK2-/SNCA-/GBA-,Levodopa,22,phase1,NA,No,PD
+233_V08,500000,3206,4723,0.6412,0.9446,233,V08,Healthy Control,NA,Male,White,66,LRRK2-/SNCA-/GBA-,UnKnown,24,phase1,NA,No,Control
+234_V08,500000,5667,2268,1.1334,0.4536,234,V08,Parkinson's disease,3,Female,White,66,LRRK2-/SNCA-/GBA-,DopamineAgonist,24,phase1,NA,No,PD
+235_V08,500000,5654,2269,1.1308,0.4538,235,V08,Parkinson's disease,3,Male,Ashkenazi_Jewish,66,LRRK2-/SNCA-/GBA-,Other,24,phase1,NA,No,PD
+236_V08,500000,5366,774,1.0732,0.1548,236,V08,Parkinson's disease,3,Male,White,66,LRRK2-/SNCA-/GBA-,Other,25,phase1,NA,No,PD
+237_V06,500000,5556,2327,1.1112,0.4654,237,V06,Genetic Registry - PD,NA,Male,Unknown,66,LRRK2+,UnKnown,25,phase2,NA,DBS,PD
+238_V08,500000,2875,6719,0.575,1.3438,238,V08,Healthy Control,NA,Male,White,66,GBA+,UnKnown,26,phase1,NA,No,Control
+239_V08,500000,4865,1424,0.973,0.2848,239,V08,Parkinson's disease,4,Male,White,66,LRRK2-/SNCA-/GBA-,DopamineAgonist,26,phase1,NA,No,PD
+240_V08,500000,2879,6674,0.5758,1.3348,240,V08,Healthy Control,NA,Female,White,66,LRRK2-/SNCA-/GBA-,UnKnown,26,phase1,NA,No,Control
+241_V08,500000,2660,3455,0.532,0.691,241,V08,Healthy Control,NA,Male,Black_or_African_American,66,LRRK2-/SNCA-/GBA-,UnKnown,27,phase1,NA,No,Control
+242_V08,500000,2440,3758,0.488,0.7516,242,V08,Healthy Control,NA,Male,White,66,GBA+,UnKnown,28,phase1,NA,No,Control
+243_V08,500000,2436,3773,0.4872,0.7546,243,V08,Healthy Control,NA,Female,White,66,LRRK2-/SNCA-/GBA-,UnKnown,28,phase1,NA,No,Control
+244_V08,500000,3952,2932,0.7904,0.5864,244,V08,Parkinson's disease,3,Male,White,66,LRRK2-/SNCA-/GBA-,Levodopa,29,phase1,NA,No,PD
+245_V08,500000,3947,2959,0.7894,0.5918,245,V08,Parkinson's disease,3,Female,White,66,LRRK2-/SNCA-/GBA-,Levodopa,29,phase1,NA,No,PD
+246_V08,500000,6778,1928,1.3556,0.3856,246,V08,Parkinson's disease,4,Male,White,65,LRRK2-/SNCA-/GBA-,DopamineAgonist,21,phase1,NA,No,PD
+247_V08,500000,3245,4508,0.649,0.9016,247,V08,Genetic Cohort - Unaffected,NA,Male,White,65,LRRK2+,UnKnown,22,phase2,NA,No,Control
+248_V08,500000,5923,2115,1.1846,0.423,248,V08,Parkinson's disease,3,Male,Am_Indian_or_Alaska_Native,65,LRRK2-/SNCA-/GBA-,Levodopa,23,phase1,NA,No,PD
+249_V08,500000,5968,2108,1.1936,0.4216,249,V08,Parkinson's disease,4,Female,White,65,GBA+,Levodopa,23,phase1,NA,No,PD
+250_V08,500000,3212,4690,0.6424,0.938,250,V08,Healthy Control,NA,Female,Hispanic_or_Latino,65,LRRK2-/SNCA-/GBA-,UnKnown,24,phase1,NA,No,Control
+251_V08,500000,5407,718,1.0814,0.1436,251,V08,Parkinson's disease,3,Male,White,65,LRRK2-/SNCA-/GBA-,Levodopa,25,phase1,NA,No,PD
+252_V08,500000,5379,769,1.0758,0.1538,252,V08,Parkinson's disease,3,Male,White,65,LRRK2-/SNCA-/GBA-,Levodopa,25,phase1,NA,No,PD
+253_V08,500000,4871,1418,0.9742,0.2836,253,V08,Parkinson's disease,3,Male,White,65,LRRK2-/SNCA-/GBA-,Other,26,phase1,NA,No,PD
+254_V08,500000,2913,6624,0.5826,1.3248,254,V08,Healthy Control,NA,Male,White,65,LRRK2-/SNCA-/GBA-,UnKnown,26,phase1,NA,No,Control
+255_V08,500000,2664,3444,0.5328,0.6888,255,V08,Healthy Control,NA,Male,White,65,LRRK2-/SNCA-/GBA-,UnKnown,27,phase1,NA,No,Control
+256_V08,500000,4202,2735,0.8404,0.547,256,V08,Parkinson's disease,3,Male,Ashkenazi_Jewish,65,GBA+,Levodopa,28,phase1,NA,No,PD
+257_V08,500000,3955,2926,0.791,0.5852,257,V08,Parkinson's disease,3,Male,White,65,LRRK2-/SNCA-/GBA-,Levodopa,29,phase1,NA,No,PD
+258_V08,500000,2190,4895,0.438,0.979,258,V08,Healthy Control,NA,Female,White,65,LRRK2-/SNCA-/GBA-,UnKnown,29,phase1,NA,No,Control
+259_V08,500000,1865,5518,0.373,1.1036,259,V08,Healthy Control,NA,Male,White,65,LRRK2-/SNCA-/GBA-,UnKnown,30,phase1,NA,No,Control
+260_V08,500000,1780,5526,0.356,1.1052,260,V08,Healthy Control,NA,Female,White,65,LRRK2-/SNCA-/GBA-,UnKnown,30,phase1,NA,No,Control
+261_BL,500000,3799,3065,0.7598,0.613,261,BL,Genetic Registry - PD,NA,Male,Unknown,65,GBA+,Other,30,phase2,DBS (Deep Brain Stimulation),DBS,PD
+262_V08,500000,3418,3913,0.6836,0.7826,262,V08,Parkinson's disease,3,Male,White,65,LRRK2-/SNCA-/GBA-,Levodopa,31,phase1,NA,No,PD
+263_V08,500000,1161,14146,0.2322,2.8292,263,V08,Healthy Control,NA,Female,White,65,GBA+,UnKnown,32,phase1,NA,No,Control
+264_V08,500000,6798,1920,1.3596,0.384,264,V08,Parkinson's disease,4,Male,White,64,LRRK2-/SNCA-/GBA-,DopamineAgonist,21,phase1,NA,No,PD
+265_V08,500000,6323,2039,1.2646,0.4078,265,V08,Parkinson's disease,3,Male,White,64,GBA+,Levodopa,22,phase1,NA,No,PD
+266_V08,500000,5410,645,1.082,0.129,266,V08,Parkinson's disease,4,Male,White,64,LRRK2-/SNCA-/GBA-,Levodopa,25,phase1,NA,No,PD
+267_V08,500000,4880,1395,0.976,0.279,267,V08,Parkinson's disease,3,Male,White,64,LRRK2-/SNCA-/GBA-,DopamineAgonist,26,phase1,NA,No,PD
+268_BL,500000,5123,1156,1.0246,0.2312,268,BL,Genetic Registry - PD,NA,Male,Unknown,64,LRRK2+,Levodopa,26,phase2,DBS (Deep Brain Stimulation),DBS,PD
+269_V08,500000,4497,2542,0.8994,0.5084,269,V08,Parkinson's disease,4,Male,White,64,GBA+,Other,27,phase1,NA,No,PD
+270_V08,500000,4495,2547,0.899,0.5094,270,V08,Parkinson's disease,4,Male,White,64,LRRK2-/SNCA-/GBA-,Other,27,phase1,NA,No,PD
+271_V08,500000,2684,3434,0.5368,0.6868,271,V08,Healthy Control,NA,Male,White,64,LRRK2-/SNCA-/GBA-,UnKnown,27,phase1,NA,No,Control
+272_V08,500000,3958,2923,0.7916,0.5846,272,V08,Parkinson's disease,3,Male,White,64,LRRK2-/SNCA-/GBA-,Levodopa,29,phase1,NA,No,PD
+273_V08,500000,8734,1617,1.7468,0.3234,273,V08,Prodromal,NA,Female,White,64,LRRK2-/SNCA-/GBA-,non,29,phase2,NA,No,Prodromal
+274_V08,500000,3663,3253,0.7326,0.6506,274,V08,Parkinson's disease,3,Male,White,64,LRRK2-/SNCA-/GBA-,Levodopa,30,phase1,NA,No,PD
+275_V08,500000,3655,3259,0.731,0.6518,275,V08,Parkinson's disease,3,Female,Black_or_African_American,64,LRRK2-/SNCA-/GBA-,Other,30,phase1,NA,No,PD
+276_V08,500000,3832,3057,0.7664,0.6114,276,V08,Genetic Cohort - PD,4,Female,Ashkenazi_Jewish,64,LRRK2+,DopamineAgonist,30,phase2,NA,No,PD
+277_V08,500000,3433,3884,0.6866,0.7768,277,V08,Parkinson's disease,3,Male,White,64,LRRK2-/SNCA-/GBA-,non,31,phase1,NA,No,PD
+278_V08,500000,1507,8204,0.3014,1.6408,278,V08,Healthy Control,NA,Female,White,64,LRRK2-/SNCA-/GBA-,UnKnown,31,phase1,NA,No,Control
+279_V08,500000,3424,3890,0.6848,0.778,279,V08,Parkinson's disease,5,Female,White,64,LRRK2-/SNCA-/GBA-,non,31,phase1,NA,No,PD
+280_BL,500000,3309,4336,0.6618,0.8672,280,BL,Genetic Cohort - PD,11,Female,White,64,GBA+,Levodopa,31,phase2,DBS (Deep Brain Stimulation),DBS,PD
+281_V08,500000,3318,4300,0.6636,0.86,281,V08,Parkinson's disease,3,Female,White,64,LRRK2-/SNCA-/GBA-,DopamineAgonist,32,phase1,NA,No,PD
+282_BL,500000,8348,1662,1.6696,0.3324,282,BL,Genetic Registry - PD,NA,Male,Unknown,63,GBA+,Levodopa,9,phase2,DBS (Deep Brain Stimulation),DBS,PD
+283_V08,500000,7583,1783,1.5166,0.3566,283,V08,Parkinson's disease,3,Male,White,63,LRRK2-/SNCA-/GBA-,Levodopa,19,phase1,NA,No,PD
+284_V08,500000,6381,2020,1.2762,0.404,284,V08,Parkinson's disease,3,Male,White,63,GBA+,Levodopa,22,phase1,NA,No,PD
+285_V08,500000,6360,2034,1.272,0.4068,285,V08,Parkinson's disease,3,Male,Am_Indian_or_Alaska_Native,63,LRRK2-/SNCA-/GBA-,DopamineAgonist,22,phase1,NA,No,PD
+286_V08,500000,6389,2018,1.2778,0.4036,286,V08,Parkinson's disease,4,Male,White,63,LRRK2-/SNCA-/GBA-,Levodopa,22,phase1,NA,No,PD
+287_V08,500000,3217,4659,0.6434,0.9318,287,V08,Healthy Control,NA,Male,White,63,LRRK2-/SNCA-/GBA-,UnKnown,24,phase1,NA,No,Control
+288_V08,500000,5421,483,1.0842,0.0966,288,V08,Parkinson's disease,3,Female,White,63,LRRK2-/SNCA-/GBA-,DopamineAgonist,25,phase1,NA,No,PD
+289_V08,500000,4881,1382,0.9762,0.2764,289,V08,Parkinson's disease,3,Female,White,63,LRRK2-/SNCA-/GBA-,Levodopa,26,phase1,NA,No,PD
+290_V08,500000,4498,2538,0.8996,0.5076,290,V08,Parkinson's disease,3,Female,White,63,LRRK2-/SNCA-/GBA-,non,27,phase1,NA,No,PD
+291_V08,500000,4501,2536,0.9002,0.5072,291,V08,Parkinson's disease,6,Female,White,63,LRRK2-/SNCA-/GBA-,Other,27,phase1,NA,No,PD
+292_V08,500000,3969,2913,0.7938,0.5826,292,V08,Parkinson's disease,3,Male,White,63,LRRK2-/SNCA-/GBA-,Levodopa,29,phase1,NA,No,PD
+293_V08,500000,3976,2908,0.7952,0.5816,293,V08,Parkinson's disease,3,Male,White,63,LRRK2-/SNCA-/GBA-,Levodopa,29,phase1,NA,No,PD
+294_V08,500000,1899,5484,0.3798,1.0968,294,V08,Healthy Control,NA,Male,White,63,LRRK2-/SNCA-/GBA-,UnKnown,30,phase1,NA,No,Control
+295_V08,500000,3667,3245,0.7334,0.649,295,V08,Parkinson's disease,4,Female,White,63,LRRK2-/SNCA-/GBA-,Levodopa,30,phase1,NA,No,PD
+296_V08,500000,1878,5486,0.3756,1.0972,296,V08,Healthy Control,NA,Male,White,63,GBA+,UnKnown,30,phase1,NA,No,Control
+297_V08,500000,3667,3252,0.7334,0.6504,297,V08,Parkinson's disease,3,Male,Ashkenazi_Jewish,63,LRRK2-/SNCA-/GBA-,DopamineAgonist,30,phase1,NA,No,PD
+298_BL,500000,3834,3047,0.7668,0.6094,298,BL,Genetic Registry - PD,NA,Male,Unknown,63,GBA+,UnKnown,30,phase2,DBS (Deep Brain Stimulation),DBS,PD
+299_V08,500000,3434,3880,0.6868,0.776,299,V08,Parkinson's disease,3,Male,White,63,LRRK2-/SNCA-/GBA-,Levodopa,31,phase1,NA,No,PD
+300_BL,500000,3369,4013,0.6738,0.8026,300,BL,Genetic Registry - PD,NA,Female,Unknown,63,LRRK2+,Levodopa,32,phase2,DBS (Deep Brain Stimulation),DBS,PD
+301_V08,500000,3245,4513,0.649,0.9026,301,V08,Healthy Control,NA,Male,White,62,LRRK2-/SNCA-/GBA-,UnKnown,22,phase1,NA,No,Control
+302_V08,500000,5972,2091,1.1944,0.4182,302,V08,Parkinson's disease,4,Male,Ashkenazi_Jewish,62,LRRK2-/SNCA-/GBA-,DopamineAgonist,23,phase1,NA,No,PD
+303_V08,500000,3113,5686,0.6226,1.1372,303,V08,Healthy Control,NA,Male,White,62,LRRK2-/SNCA-/GBA-,UnKnown,25,phase1,NA,No,Control
+304_V08,500000,5424,460,1.0848,0.092,304,V08,Parkinson's disease,3,Male,White,62,LRRK2-/SNCA-/GBA-,Levodopa,25,phase1,NA,No,PD
+305_V08,500000,2918,6492,0.5836,1.2984,305,V08,Healthy Control,NA,Female,White,62,LRRK2-/SNCA-/GBA-,UnKnown,26,phase1,NA,No,Control
+306_V08,500000,9285,1512,1.857,0.3024,306,V08,Prodromal,NA,Male,White,62,LRRK2-/SNCA-/GBA-,Levodopa,26,phase2,NA,No,Prodromal
+307_V08,500000,9047,1539,1.8094,0.3078,307,V08,Prodromal,NA,Male,Hispanic_or_Latino,62,LRRK2-/SNCA-/GBA-,non,26,phase2,NA,No,Prodromal
+308_V08,500000,4504,2529,0.9008,0.5058,308,V08,Parkinson's disease,3,Male,White,62,LRRK2-/SNCA-/GBA-,DopamineAgonist,27,phase1,NA,No,PD
+309_V08,500000,4503,2535,0.9006,0.507,309,V08,Parkinson's disease,3,Female,White,62,LRRK2-/SNCA-/GBA-,Other,27,phase1,NA,No,PD
+310_V08,500000,4219,2732,0.8438,0.5464,310,V08,Parkinson's disease,4,Male,White,62,GBA+,Levodopa,28,phase1,NA,No,PD
+311_V08,500000,3983,2900,0.7966,0.58,311,V08,Parkinson's disease,3,Female,White,62,LRRK2-/SNCA-/GBA-,Levodopa,29,phase1,NA,No,PD
+312_V08,500000,3685,3226,0.737,0.6452,312,V08,Parkinson's disease,3,Female,Black_or_African_American,62,LRRK2-/SNCA-/GBA-,DopamineAgonist,30,phase1,NA,No,PD
+313_V08,500000,3685,3229,0.737,0.6458,313,V08,Parkinson's disease,3,Female,White,62,LRRK2-/SNCA-/GBA-,DopamineAgonist,30,phase1,NA,No,PD
+314_V08,500000,3844,3047,0.7688,0.6094,314,V08,Genetic Cohort - PD,5,Female,White,62,LRRK2+,Levodopa,30,phase2,NA,No,PD
+315_V08,500000,3444,3878,0.6888,0.7756,315,V08,Parkinson's disease,3,Male,White,62,LRRK2+,DopamineAgonist,31,phase1,NA,No,PD
+316_V08,500000,1515,8029,0.303,1.6058,316,V08,Healthy Control,NA,Male,White,62,LRRK2-/SNCA-/GBA-,UnKnown,31,phase1,NA,No,Control
+317_V08,500000,3321,4260,0.6642,0.852,317,V08,Parkinson's disease,3,Male,White,62,LRRK2-/SNCA-/GBA-,DopamineAgonist,32,phase1,NA,No,PD
+318_V08,500000,6442,2017,1.2884,0.4034,318,V08,Parkinson's disease,4,Male,White,61,LRRK2-/SNCA-/GBA-,DopamineAgonist,22,phase1,NA,No,PD
+319_V08,500000,5667,2260,1.1334,0.452,319,V08,Parkinson's disease,3,Female,White,61,LRRK2-/SNCA-/GBA-,Levodopa,24,phase1,NA,No,PD
+320_V08,500000,5440,237,1.088,0.0474,320,V08,Parkinson's disease,3,Female,White,61,GBA+,Levodopa,25,phase1,NA,No,PD
+321_V08,500000,3115,5671,0.623,1.1342,321,V08,Healthy Control,NA,Male,Ashkenazi_Jewish,61,LRRK2-/SNCA-/GBA-,UnKnown,25,phase1,NA,No,Control
+322_V08,500000,5435,456,1.087,0.0912,322,V08,Parkinson's disease,3,Male,White,61,LRRK2-/SNCA-/GBA-,Levodopa,25,phase1,NA,No,PD
+323_V08,500000,4891,1364,0.9782,0.2728,323,V08,Parkinson's disease,3,Male,White,61,LRRK2-/SNCA-/GBA-,Levodopa,26,phase1,NA,No,PD
+324_V08,500000,4513,2523,0.9026,0.5046,324,V08,Parkinson's disease,4,Female,White,61,LRRK2-/SNCA-/GBA-,DopamineAgonist,27,phase1,NA,No,PD
+325_V08,500000,4226,2724,0.8452,0.5448,325,V08,Parkinson's disease,3,Female,White,61,LRRK2-/SNCA-/GBA-,DopamineAgonist,28,phase1,NA,No,PD
+326_V08,500000,2440,3752,0.488,0.7504,326,V08,Healthy Control,NA,Female,White,61,LRRK2-/SNCA-/GBA-,UnKnown,28,phase1,NA,No,Control
+327_V08,500000,3695,3215,0.739,0.643,327,V08,Parkinson's disease,4,Female,White,61,LRRK2-/SNCA-/GBA-,Levodopa,30,phase1,NA,No,PD
+328_V08,500000,3446,3862,0.6892,0.7724,328,V08,Parkinson's disease,4,Female,White,61,GBA+,Levodopa,31,phase1,NA,No,PD
+329_V08,500000,3321,4259,0.6642,0.8518,329,V08,Parkinson's disease,3,Male,White,61,LRRK2-/SNCA-/GBA-,Levodopa,32,phase1,NA,No,PD
+330_V08,500000,6486,2014,1.2972,0.4028,330,V08,Parkinson's disease,3,Male,White,60,GBA+,Levodopa,22,phase1,NA,No,PD
+331_V08,500000,3237,4592,0.6474,0.9184,331,V08,Healthy Control,NA,Female,White,60,LRRK2-/SNCA-/GBA-,UnKnown,23,phase1,NA,No,Control
+332_V08,500000,6032,2089,1.2064,0.4178,332,V08,Parkinson's disease,4,Male,White,60,LRRK2-/SNCA-/GBA-,Levodopa,23,phase1,NA,No,PD
+333_V08,500000,5444,2367,1.0888,0.4734,333,V08,Parkinson's disease,3,Female,White,60,LRRK2-/SNCA-/GBA-,Other,25,phase1,NA,No,PD
+334_V08,500000,4909,1356,0.9818,0.2712,334,V08,Parkinson's disease,3,Male,White,60,LRRK2-/SNCA-/GBA-,Levodopa,26,phase1,NA,No,PD
+335_V08,500000,4904,1361,0.9808,0.2722,335,V08,Parkinson's disease,3,Male,White,60,LRRK2-/SNCA-/GBA-,non,26,phase1,NA,No,PD
+336_V08,500000,2715,3434,0.543,0.6868,336,V08,Healthy Control,NA,Female,Ashkenazi_Jewish,60,LRRK2-/SNCA-/GBA-,UnKnown,27,phase1,NA,No,Control
+337_V08,500000,4537,2522,0.9074,0.5044,337,V08,Parkinson's disease,4,Male,White,60,LRRK2-/SNCA-/GBA-,Levodopa,27,phase1,NA,No,PD
+338_V08,500000,2486,3739,0.4972,0.7478,338,V08,Healthy Control,NA,Male,White,60,LRRK2-/SNCA-/GBA-,UnKnown,28,phase1,NA,No,Control
+339_V08,500000,1926,5427,0.3852,1.0854,339,V08,Healthy Control,NA,Female,White,60,LRRK2-/SNCA-/GBA-,UnKnown,30,phase1,NA,No,Control
+340_V08,500000,1939,5404,0.3878,1.0808,340,V08,Healthy Control,NA,Male,White,60,LRRK2-/SNCA-/GBA-,UnKnown,30,phase1,NA,No,Control
+341_V08,500000,3713,3194,0.7426,0.6388,341,V08,Parkinson's disease,3,Female,White,60,LRRK2+,DopamineAgonist,30,phase1,NA,No,PD
+342_V08,500000,3708,3201,0.7416,0.6402,342,V08,Parkinson's disease,3,Female,White,60,LRRK2-/SNCA-/GBA-,Other,30,phase1,NA,No,PD
+343_V08,500000,3337,4227,0.6674,0.8454,343,V08,Parkinson's disease,3,Female,White,60,LRRK2-/SNCA-/GBA-,Levodopa,32,phase1,NA,No,PD
+344_V08,500000,1179,12938,0.2358,2.5876,344,V08,Healthy Control,NA,Male,White,60,LRRK2-/SNCA-/GBA-,UnKnown,32,phase1,NA,No,Control
+345_V08,500000,3324,4248,0.6648,0.8496,345,V08,Parkinson's disease,4,Female,White,60,GBA+,DopamineAgonist,32,phase1,NA,No,PD
+346_V08,500000,3222,4620,0.6444,0.924,346,V08,Healthy Control,NA,Male,White,59,LRRK2-/SNCA-/GBA-,UnKnown,24,phase1,NA,No,Control
+347_V08,500000,3219,4651,0.6438,0.9302,347,V08,Healthy Control,NA,Female,White,59,LRRK2-/SNCA-/GBA-,UnKnown,24,phase1,NA,No,Control
+348_V08,500000,4918,1313,0.9836,0.2626,348,V08,Parkinson's disease,3,Male,White,59,LRRK2-/SNCA-/GBA-,DopamineAgonist,26,phase1,NA,No,PD
+349_V08,500000,4954,1286,0.9908,0.2572,349,V08,Parkinson's disease,3,Female,White,59,LRRK2-/SNCA-/GBA-,DopamineAgonist,26,phase1,NA,No,PD
+350_V08,500000,2923,6333,0.5846,1.2666,350,V08,Healthy Control,NA,Male,Ashkenazi_Jewish,59,LRRK2-/SNCA-/GBA-,UnKnown,26,phase1,NA,No,Control
+351_V08,500000,4936,1300,0.9872,0.26,351,V08,Parkinson's disease,4,Male,White,59,LRRK2-/SNCA-/GBA-,non,26,phase1,NA,No,PD
+352_V08,500000,2728,3429,0.5456,0.6858,352,V08,Healthy Control,NA,Male,White,59,LRRK2-/SNCA-/GBA-,UnKnown,27,phase1,NA,No,Control
+353_V08,500000,4543,2509,0.9086,0.5018,353,V08,Parkinson's disease,4,Male,White,59,LRRK2-/SNCA-/GBA-,Other,27,phase1,NA,No,PD
+354_V08,500000,4540,2520,0.908,0.504,354,V08,Parkinson's disease,3,Female,White,59,LRRK2-/SNCA-/GBA-,DopamineAgonist,27,phase1,NA,No,PD
+355_V08,500000,2517,3735,0.5034,0.747,355,V08,Healthy Control,NA,Male,White,59,LRRK2-/SNCA-/GBA-,UnKnown,28,phase1,NA,No,Control
+356_V08,500000,3992,2887,0.7984,0.5774,356,V08,Parkinson's disease,3,Male,White,59,LRRK2-/SNCA-/GBA-,Levodopa,29,phase1,NA,No,PD
+357_V08,500000,2195,4891,0.439,0.9782,357,V08,Healthy Control,NA,Male,Ashkenazi_Jewish,59,LRRK2-/SNCA-/GBA-,UnKnown,29,phase1,NA,No,Control
+358_V08,500000,3743,3152,0.7486,0.6304,358,V08,Parkinson's disease,6,Female,White,59,LRRK2-/SNCA-/GBA-,Levodopa,30,phase1,NA,No,PD
+359_V08,500000,3486,3840,0.6972,0.768,359,V08,Parkinson's disease,5,Female,White,59,LRRK2-/SNCA-/GBA-,non,31,phase1,NA,No,PD
+360_V08,500000,3483,3845,0.6966,0.769,360,V08,Parkinson's disease,4,Male,White,59,LRRK2-/SNCA-/GBA-,DopamineAgonist,31,phase1,NA,No,PD
+361_V08,500000,3463,3851,0.6926,0.7702,361,V08,Parkinson's disease,3,Male,White,59,LRRK2-/SNCA-/GBA-,DopamineAgonist,31,phase1,NA,No,PD
+362_V08,500000,1383,8529,0.2766,1.7058,362,V08,Genetic Cohort - Unaffected,NA,Female,White,59,LRRK2+,UnKnown,32,phase2,NA,No,Control
+363_V08,500000,6846,1906,1.3692,0.3812,363,V08,Parkinson's disease,3,Male,White,58,LRRK2-/SNCA-/GBA-,DopamineAgonist,21,phase1,NA,No,PD
+364_BL,500000,6522,2000,1.3044,0.4,364,BL,Genetic Registry - PD,NA,Female,Unknown,58,LRRK2+,Levodopa,22,phase2,DBS (Deep Brain Stimulation),DBS,PD
+365_V08,500000,5670,2246,1.134,0.4492,365,V08,Parkinson's disease,4,Female,White,58,LRRK2-/SNCA-/GBA-,DopamineAgonist,24,phase1,NA,No,PD
+366_V08,500000,5445,2360,1.089,0.472,366,V08,Parkinson's disease,3,Female,White,58,LRRK2-/SNCA-/GBA-,Levodopa,25,phase1,NA,No,PD
+367_V08,500000,2755,3413,0.551,0.6826,367,V08,Healthy Control,NA,Female,White,58,LRRK2-/SNCA-/GBA-,UnKnown,27,phase1,NA,No,Control
+368_V08,500000,2738,3425,0.5476,0.685,368,V08,Healthy Control,NA,Male,White,58,LRRK2-/SNCA-/GBA-,UnKnown,27,phase1,NA,No,Control
+369_V08,500000,4553,2506,0.9106,0.5012,369,V08,Parkinson's disease,3,Male,White,58,GBA+,Other,27,phase1,NA,No,PD
+370_V06,500000,4671,2459,0.9342,0.4918,370,V06,Genetic Registry - PD,NA,Male,Unknown,58,LRRK2+,UnKnown,27,phase2,DBS (Deep Brain Stimulation),DBS,PD
+371_V08,500000,4250,2712,0.85,0.5424,371,V08,Parkinson's disease,5,Female,White,58,LRRK2-/SNCA-/GBA-,Other,28,phase1,NA,No,PD
+372_V08,500000,2528,3730,0.5056,0.746,372,V08,Healthy Control,NA,Female,White,58,LRRK2-/SNCA-/GBA-,UnKnown,28,phase1,NA,No,Control
+373_V08,500000,3993,2880,0.7986,0.576,373,V08,Parkinson's disease,3,Male,White,58,LRRK2-/SNCA-/GBA-,DopamineAgonist,29,phase1,NA,No,PD
+374_V08,500000,1939,5334,0.3878,1.0668,374,V08,Healthy Control,NA,Male,White,58,LRRK2-/SNCA-/GBA-,UnKnown,30,phase1,NA,No,Control
+375_V08,500000,3719,3167,0.7438,0.6334,375,V08,Parkinson's disease,3,Female,White,58,LRRK2-/SNCA-/GBA-,Other,30,phase1,NA,No,PD
+376_V08,500000,3717,3185,0.7434,0.637,376,V08,Parkinson's disease,3,Male,White,58,LRRK2-/SNCA-/GBA-,Levodopa,30,phase1,NA,No,PD
+377_V08,500000,3495,3829,0.699,0.7658,377,V08,Parkinson's disease,3,Male,White,58,LRRK2-/SNCA-/GBA-,non,31,phase1,NA,No,PD
+378_V08,500000,1538,7847,0.3076,1.5694,378,V08,Healthy Control,NA,Male,White,58,LRRK2-/SNCA-/GBA-,non,31,phase1,NA,No,Control
+379_V08,500000,1269,11313,0.2538,2.2626,379,V08,Healthy Control,NA,Male,Ashkenazi_Jewish,58,LRRK2-/SNCA-/GBA-,UnKnown,32,phase1,NA,No,Control
+380_V08,500000,2937,6298,0.5874,1.2596,380,V08,Healthy Control,NA,Female,White,57,LRRK2-/SNCA-/GBA-,UnKnown,26,phase1,NA,No,Control
+381_V08,500000,4565,2499,0.913,0.4998,381,V08,Parkinson's disease,4,Female,White,57,GBA+,DopamineAgonist,27,phase1,NA,No,PD
+382_V08,500000,2755,3413,0.551,0.6826,382,V08,Healthy Control,NA,Female,White,57,LRRK2-/SNCA-/GBA-,UnKnown,27,phase1,NA,No,Control
+383_V08,500000,4598,2497,0.9196,0.4994,383,V08,Parkinson's disease,4,Male,White,57,LRRK2-/SNCA-/GBA-,Levodopa,27,phase1,NA,No,PD
+384_V08,500000,4562,2501,0.9124,0.5002,384,V08,Parkinson's disease,4,Male,White,57,GBA+,non,27,phase1,NA,No,PD
+385_V08,500000,4589,2498,0.9178,0.4996,385,V08,Parkinson's disease,3,Female,White,57,LRRK2-/SNCA-/GBA-,Levodopa,27,phase1,NA,No,PD
+386_V08,500000,4268,2705,0.8536,0.541,386,V08,Parkinson's disease,4,Female,White,57,LRRK2-/SNCA-/GBA-,Levodopa,28,phase1,NA,No,PD
+387_V08,500000,4290,2699,0.858,0.5398,387,V08,Parkinson's disease,4,Female,White,57,LRRK2+,Other,28,phase1,NA,No,PD
+388_V08,500000,4002,2867,0.8004,0.5734,388,V08,Parkinson's disease,3,Female,White,57,LRRK2-/SNCA-/GBA-,Levodopa,29,phase1,NA,No,PD
+389_V08,500000,2285,4795,0.457,0.959,389,V08,Genetic Cohort - Unaffected,NA,Male,Unknown,57,LRRK2+,UnKnown,29,phase2,NA,No,Control
+390_V08,500000,2269,4801,0.4538,0.9602,390,V08,Genetic Cohort - Unaffected,NA,Female,White,57,LRRK2+,UnKnown,29,phase2,NA,No,Control
+391_V08,500000,1943,5318,0.3886,1.0636,391,V08,Healthy Control,NA,Female,Ashkenazi_Jewish,57,LRRK2-/SNCA-/GBA-,UnKnown,30,phase1,NA,No,Control
+392_V08,500000,3341,4200,0.6682,0.84,392,V08,Parkinson's disease,4,Male,White,57,LRRK2-/SNCA-/GBA-,DopamineAgonist,32,phase1,NA,No,PD
+393_V08,500000,6880,1897,1.376,0.3794,393,V08,Parkinson's disease,3,Female,White,56,GBA+,Levodopa,21,phase1,NA,No,PD
+394_V08,500000,5701,2243,1.1402,0.4486,394,V08,Parkinson's disease,4,Male,White,56,LRRK2-/SNCA-/GBA-,Levodopa,24,phase1,NA,No,PD
+395_V08,500000,2954,6162,0.5908,1.2324,395,V08,Healthy Control,NA,Female,White,56,LRRK2-/SNCA-/GBA-,UnKnown,26,phase1,NA,No,Control
+396_V08,500000,4972,1285,0.9944,0.257,396,V08,Parkinson's disease,3,Male,Hispanic_or_Latino,56,LRRK2-/SNCA-/GBA-,Levodopa,26,phase1,NA,No,PD
+397_V08,500000,2783,3389,0.5566,0.6778,397,V08,Healthy Control,NA,Male,White,56,LRRK2-/SNCA-/GBA-,UnKnown,27,phase1,NA,No,Control
+398_V08,500000,4606,2493,0.9212,0.4986,398,V08,Parkinson's disease,3,Male,White,56,LRRK2-/SNCA-/GBA-,Levodopa,27,phase1,NA,No,PD
+399_V08,500000,4334,2662,0.8668,0.5324,399,V08,Genetic Cohort - PD,9,Female,White,56,LRRK2+,Levodopa,28,phase2,NA,No,PD
+400_V08,500000,4058,2844,0.8116,0.5688,400,V08,Parkinson's disease,3,Female,White,56,LRRK2-/SNCA-/GBA-,Levodopa,29,phase1,NA,No,PD
+401_V08,500000,4031,2856,0.8062,0.5712,401,V08,Parkinson's disease,3,Male,White,56,LRRK2-/SNCA-/GBA-,DopamineAgonist,29,phase1,NA,No,PD
+402_V08,500000,2007,5312,0.4014,1.0624,402,V08,Healthy Control,NA,Male,White,56,LRRK2-/SNCA-/GBA-,UnKnown,30,phase1,NA,No,Control
+403_V08,500000,3750,3149,0.75,0.6298,403,V08,Parkinson's disease,4,Male,White,56,LRRK2-/SNCA-/GBA-,Levodopa,30,phase1,NA,No,PD
+404_V08,500000,1624,7450,0.3248,1.49,404,V08,Healthy Control,NA,Male,Ashkenazi_Jewish,56,LRRK2-/SNCA-/GBA-,UnKnown,31,phase1,NA,No,Control
+405_V08,500000,1322,11168,0.2644,2.2336,405,V08,Healthy Control,NA,Female,White,56,LRRK2-/SNCA-/GBA-,UnKnown,32,phase1,NA,No,Control
+406_V08,500000,3126,5664,0.6252,1.1328,406,V08,Healthy Control,NA,Male,White,55,LRRK2-/SNCA-/GBA-,UnKnown,25,phase1,NA,No,Control
+407_V08,500000,4611,2489,0.9222,0.4978,407,V08,Parkinson's disease,3,Male,White,55,LRRK2-/SNCA-/GBA-,DopamineAgonist,27,phase1,NA,No,PD
+408_V08,500000,4291,2689,0.8582,0.5378,408,V08,Parkinson's disease,3,Male,White,55,LRRK2-/SNCA-/GBA-,Levodopa,28,phase1,NA,No,PD
+409_V08,500000,2533,3730,0.5066,0.746,409,V08,Healthy Control,NA,Female,White,55,LRRK2-/SNCA-/GBA-,UnKnown,28,phase1,NA,No,Control
+410_V08,500000,3752,3142,0.7504,0.6284,410,V08,Parkinson's disease,4,Male,Ashkenazi_Jewish,55,GBA+,Levodopa,30,phase1,NA,No,PD
+411_V04,500000,3845,3044,0.769,0.6088,411,V04,Genetic Cohort - PD,7,Female,Ashkenazi_Jewish,55,LRRK2+,Levodopa,30,phase2,DBS (Deep Brain Stimulation),DBS,PD
+412_V08,500000,1643,7382,0.3286,1.4764,412,V08,Healthy Control,NA,Male,White,55,LRRK2-/SNCA-/GBA-,UnKnown,31,phase1,NA,No,Control
+413_V08,500000,3502,3810,0.7004,0.762,413,V08,Parkinson's disease,3,Female,White,55,LRRK2-/SNCA-/GBA-,Levodopa,31,phase1,NA,No,PD
+414_V08,500000,3500,3820,0.7,0.764,414,V08,Parkinson's disease,3,Female,White,55,LRRK2-/SNCA-/GBA-,DopamineAgonist,31,phase1,NA,No,PD
+415_V08,500000,1657,7227,0.3314,1.4454,415,V08,Healthy Control,NA,Female,White,55,LRRK2-/SNCA-/GBA-,UnKnown,31,phase1,NA,No,Control
+416_V08,500000,7681,1764,1.5362,0.3528,416,V08,Parkinson's disease,3,Male,White,55,LRRK2-/SNCA-/GBA-,Levodopa,NA,phase1,NA,No,PD
+417_V06,500000,5717,2233,1.1434,0.4466,417,V06,Genetic Cohort - PD,8,Female,White,54,LRRK2+,Levodopa,24,phase2,DBS (Deep Brain Stimulation),DBS,PD
+418_V08,500000,3169,5600,0.6338,1.12,418,V08,Genetic Cohort - Unaffected,NA,Female,White,54,LRRK2+,UnKnown,25,phase2,NA,No,Control
+419_V08,500000,5129,1088,1.0258,0.2176,419,V08,Parkinson's disease,5,Female,White,54,LRRK2-/SNCA-/GBA-,DopamineAgonist,26,phase2,NA,No,PD
+420_V08,500000,2954,6145,0.5908,1.229,420,V08,Healthy Control,NA,Male,White,54,LRRK2-/SNCA-/GBA-,UnKnown,26,phase1,NA,No,Control
+421_V08,500000,4983,1266,0.9966,0.2532,421,V08,Parkinson's disease,3,Male,White,54,LRRK2-/SNCA-/GBA-,Levodopa,26,phase1,NA,No,PD
+422_V08,500000,4618,2488,0.9236,0.4976,422,V08,Parkinson's disease,3,Male,White,54,LRRK2-/SNCA-/GBA-,Other,27,phase1,NA,No,PD
+423_V08,500000,4620,2480,0.924,0.496,423,V08,Parkinson's disease,4,Male,Black_or_African_American,54,LRRK2-/SNCA-/GBA-,Levodopa,27,phase1,NA,No,PD
+424_V08,500000,4063,2843,0.8126,0.5686,424,V08,Parkinson's disease,4,Male,White,54,LRRK2-/SNCA-/GBA-,DopamineAgonist,29,phase1,NA,No,PD
+425_V08,500000,3754,3140,0.7508,0.628,425,V08,Parkinson's disease,3,Female,Hispanic_or_Latino,54,LRRK2-/SNCA-/GBA-,Other,30,phase1,NA,No,PD
+426_V08,500000,3510,3354,0.702,0.6708,426,V08,Parkinson's disease,3,Male,White,54,LRRK2-/SNCA-/GBA-,Levodopa,31,phase1,NA,No,PD
+427_V08,500000,3346,4109,0.6692,0.8218,427,V08,Parkinson's disease,5,Male,White,54,LRRK2-/SNCA-/GBA-,Other,32,phase1,NA,No,PD
+428_V08,500000,5453,2353,1.0906,0.4706,428,V08,Parkinson's disease,3,Female,White,53,LRRK2-/SNCA-/GBA-,DopamineAgonist,25,phase1,NA,No,PD
+429_V08,500000,5002,1251,1.0004,0.2502,429,V08,Parkinson's disease,3,Male,White,53,LRRK2-/SNCA-/GBA-,Levodopa,26,phase1,NA,No,PD
+430_V08,500000,4996,1258,0.9992,0.2516,430,V08,Parkinson's disease,3,Male,White,53,LRRK2-/SNCA-/GBA-,Levodopa,26,phase1,NA,No,PD
+431_V08,500000,4624,2474,0.9248,0.4948,431,V08,Parkinson's disease,3,Male,White,53,LRRK2-/SNCA-/GBA-,Levodopa,27,phase1,NA,No,PD
+432_V08,500000,2791,3380,0.5582,0.676,432,V08,Healthy Control,NA,Male,White,53,LRRK2-/SNCA-/GBA-,UnKnown,27,phase1,NA,No,Control
+433_V08,500000,4066,2840,0.8132,0.568,433,V08,Parkinson's disease,3,Male,Ashkenazi_Jewish,53,GBA+,Levodopa,29,phase1,NA,No,PD
+434_V08,500000,3518,3348,0.7036,0.6696,434,V08,Parkinson's disease,3,Female,White,53,LRRK2-/SNCA-/GBA-,Levodopa,31,phase1,NA,No,PD
+435_V08,500000,5020,1238,1.004,0.2476,435,V08,Parkinson's disease,3,Male,Hispanic_or_Latino,52,LRRK2-/SNCA-/GBA-,non,26,phase1,NA,No,PD
+436_V08,500000,5027,1205,1.0054,0.241,436,V08,Parkinson's disease,4,Male,White,52,LRRK2-/SNCA-/GBA-,DopamineAgonist,26,phase1,NA,No,PD
+437_V08,500000,4668,2463,0.9336,0.4926,437,V08,Parkinson's disease,4,Male,White,52,LRRK2-/SNCA-/GBA-,Other,27,phase1,NA,No,PD
+438_V08,500000,3755,3139,0.751,0.6278,438,V08,Parkinson's disease,3,Female,White,52,LRRK2-/SNCA-/GBA-,DopamineAgonist,30,phase1,NA,No,PD
+439_V08,500000,3501,3820,0.7002,0.764,439,V08,Parkinson's disease,4,Male,White,52,LRRK2-/SNCA-/GBA-,Levodopa,31,phase1,NA,No,PD
+440_V08,500000,1686,7088,0.3372,1.4176,440,V08,Healthy Control,NA,Female,White,52,LRRK2-/SNCA-/GBA-,UnKnown,31,phase1,NA,No,Control
+441_V08,500000,3522,3343,0.7044,0.6686,441,V08,Parkinson's disease,4,Female,White,52,LRRK2-/SNCA-/GBA-,Levodopa,31,phase1,NA,No,PD
+442_V08,500000,3356,4037,0.6712,0.8074,442,V08,Parkinson's disease,3,Male,White,52,LRRK2-/SNCA-/GBA-,Levodopa,32,phase1,NA,No,PD
+443_V08,500000,3351,4077,0.6702,0.8154,443,V08,Parkinson's disease,4,Female,White,52,LRRK2-/SNCA-/GBA-,Levodopa,32,phase1,NA,No,PD
+444_V08,500000,7292,1808,1.4584,0.3616,444,V08,Parkinson's disease,5,Male,White,51,GBA+,Levodopa,20,phase1,NA,No,PD
+445_V08,500000,4652,2469,0.9304,0.4938,445,V08,Parkinson's disease,3,Male,White,51,GBA+,Levodopa,27,phase1,NA,No,PD
+446_V08,500000,4722,2452,0.9444,0.4904,446,V08,Genetic Cohort - PD,8,Female,White,51,LRRK2+,Levodopa,27,phase2,NA,No,PD
+447_V08,500000,3763,3138,0.7526,0.6276,447,V08,Parkinson's disease,3,Female,White,51,LRRK2-/SNCA-/GBA-,Levodopa,30,phase1,NA,No,PD
+448_V08,500000,3779,3077,0.7558,0.6154,448,V08,Parkinson's disease,3,Male,White,51,LRRK2-/SNCA-/GBA-,DopamineAgonist,30,phase1,NA,No,PD
+449_V08,500000,3368,4031,0.6736,0.8062,449,V08,Parkinson's disease,3,Female,White,51,LRRK2-/SNCA-/GBA-,DopamineAgonist,32,phase1,NA,No,PD
+450_V08,500000,6044,2086,1.2088,0.4172,450,V08,Parkinson's disease,4,Male,Ashkenazi_Jewish,50,LRRK2-/SNCA-/GBA-,Other,23,phase1,NA,No,PD
+451_V08,500000,2799,3356,0.5598,0.6712,451,V08,Healthy Control,NA,Male,Black_or_African_American,50,LRRK2-/SNCA-/GBA-,UnKnown,27,phase1,NA,No,Control
+452_V08,500000,4086,2824,0.8172,0.5648,452,V08,Parkinson's disease,4,Male,Asian,50,LRRK2-/SNCA-/GBA-,Levodopa,29,phase1,NA,No,PD
+453_V08,500000,4082,2829,0.8164,0.5658,453,V08,Parkinson's disease,3,Male,White,50,LRRK2-/SNCA-/GBA-,Levodopa,29,phase1,NA,No,PD
+454_V08,500000,3523,3340,0.7046,0.668,454,V08,Parkinson's disease,4,Female,White,50,LRRK2+,Other,31,phase1,NA,No,PD
+455_V08,500000,1325,10838,0.265,2.1676,455,V08,Healthy Control,NA,Male,White,50,LRRK2-/SNCA-/GBA-,UnKnown,32,phase1,NA,No,Control
+456_V08,500000,2970,6078,0.594,1.2156,456,V08,Healthy Control,NA,Male,White,49,LRRK2-/SNCA-/GBA-,UnKnown,26,phase1,NA,No,Control
+457_V08,500000,3531,3330,0.7062,0.666,457,V08,Parkinson's disease,3,Female,White,49,LRRK2-/SNCA-/GBA-,DopamineAgonist,31,phase1,NA,No,PD
+458_V08,500000,3527,3334,0.7054,0.6668,458,V08,Parkinson's disease,3,Male,White,49,LRRK2-/SNCA-/GBA-,DopamineAgonist,31,phase1,NA,No,PD
+459_V08,500000,5057,1198,1.0114,0.2396,459,V08,Parkinson's disease,3,Female,White,48,LRRK2-/SNCA-/GBA-,Levodopa,26,phase1,NA,No,PD
+460_V08,500000,2545,3714,0.509,0.7428,460,V08,Healthy Control,NA,Female,White,48,LRRK2-/SNCA-/GBA-,UnKnown,28,phase1,NA,No,Control
+461_V08,500000,2200,4824,0.44,0.9648,461,V08,Healthy Control,NA,Male,White,48,LRRK2-/SNCA-/GBA-,UnKnown,29,phase1,NA,No,Control
+462_V08,500000,1687,7041,0.3374,1.4082,462,V08,Healthy Control,NA,Male,White,48,LRRK2-/SNCA-/GBA-,UnKnown,31,phase1,NA,No,Control
+463_V08,500000,1691,7000,0.3382,1.4,463,V08,Healthy Control,NA,Male,White,48,LRRK2-/SNCA-/GBA-,UnKnown,31,phase1,NA,No,Control
+464_V08,500000,4293,2689,0.8586,0.5378,464,V08,Parkinson's disease,3,Male,White,47,LRRK2-/SNCA-/GBA-,Levodopa,28,phase1,NA,No,PD
+465_V08,500000,3225,4614,0.645,0.9228,465,V08,Healthy Control,NA,Male,Black_or_African_American,46,LRRK2-/SNCA-/GBA-,UnKnown,24,phase1,NA,No,Control
+466_V08,500000,5100,1175,1.02,0.235,466,V08,Parkinson's disease,3,Male,White,46,LRRK2-/SNCA-/GBA-,Other,26,phase1,NA,No,PD
+467_V08,500000,2991,5971,0.5982,1.1942,467,V08,Healthy Control,NA,Male,White,46,LRRK2-/SNCA-/GBA-,UnKnown,26,phase1,NA,No,Control
+468_V08,500000,5706,2243,1.1412,0.4486,468,V08,Parkinson's disease,3,Male,White,45,LRRK2-/SNCA-/GBA-,Levodopa,24,phase1,NA,No,PD
+469_V08,500000,3781,3073,0.7562,0.6146,469,V08,Parkinson's disease,3,Female,White,45,GBA+,Other,30,phase1,NA,No,PD
+470_V08,500000,5122,1167,1.0244,0.2334,470,V08,Parkinson's disease,3,Male,White,44,GBA+,Levodopa,26,phase1,NA,No,PD
+471_V08,500000,4092,2823,0.8184,0.5646,471,V08,Parkinson's disease,3,Male,White,44,GBA+,Levodopa,29,phase1,NA,No,PD
+472_V08,500000,2017,5287,0.4034,1.0574,472,V08,Healthy Control,NA,Female,White,44,GBA+,UnKnown,30,phase1,NA,No,Control
+473_V08,500000,4097,2820,0.8194,0.564,473,V08,Parkinson's disease,4,Male,White,43,LRRK2-/SNCA-/GBA-,Levodopa,29,phase1,NA,No,PD
+474_V08,500000,3540,3330,0.708,0.666,474,V08,Parkinson's disease,3,Male,Asian,43,LRRK2-/SNCA-/GBA-,DopamineAgonist,31,phase1,NA,No,PD
+475_V08,500000,1709,6997,0.3418,1.3994,475,V08,Healthy Control,NA,Male,White,42,LRRK2-/SNCA-/GBA-,UnKnown,31,phase1,NA,No,Control
+476_V08,500000,5472,2339,1.0944,0.4678,476,V08,Parkinson's disease,3,Male,White,41,LRRK2-/SNCA-/GBA-,DopamineAgonist,25,phase1,NA,No,PD
+477_V08,500000,5468,2349,1.0936,0.4698,477,V08,Parkinson's disease,3,Male,White,41,LRRK2-/SNCA-/GBA-,non,25,phase1,NA,No,PD
+478_V08,500000,2019,5282,0.4038,1.0564,478,V08,Healthy Control,NA,Female,White,41,LRRK2-/SNCA-/GBA-,UnKnown,30,phase1,NA,No,Control
+479_V08,500000,3540,3330,0.708,0.666,479,V08,Parkinson's disease,4,Female,White,41,GBA+,DopamineAgonist,31,phase1,NA,No,PD
+480_V08,500000,4294,2677,0.8588,0.5354,480,V08,Parkinson's disease,3,Male,White,40,LRRK2-/SNCA-/GBA-,Levodopa,28,phase1,NA,No,PD
+481_V08,500000,3002,5965,0.6004,1.193,481,V08,Healthy Control,NA,Female,White,39,LRRK2-/SNCA-/GBA-,UnKnown,26,phase1,NA,No,Control
+482_V08,500000,3543,3329,0.7086,0.6658,482,V08,Parkinson's disease,3,Female,White,39,GBA+,Levodopa,31,phase1,NA,No,PD
+483_V08,500000,5518,2329,1.1036,0.4658,483,V08,Parkinson's disease,3,Male,Am_Indian_or_Alaska_Native,37,LRRK2-/SNCA-/GBA-,Levodopa,25,phase1,NA,No,PD
+484_V08,500000,3006,5961,0.6012,1.1922,484,V08,Healthy Control,NA,Male,Black_or_African_American,37,LRRK2-/SNCA-/GBA-,UnKnown,26,phase1,NA,No,Control
+485_V08,500000,2043,5210,0.4086,1.042,485,V08,Healthy Control,NA,Female,White,37,LRRK2-/SNCA-/GBA-,UnKnown,30,phase1,NA,No,Control
+486_V08,500000,7005,1853,1.401,0.3706,486,V08,Parkinson's disease,5,Female,Hispanic_or_Latino,36,LRRK2-/SNCA-/GBA-,Other,21,phase1,NA,No,PD
+487_V08,500000,1360,8723,0.272,1.7446,487,V08,Healthy Control,NA,Male,White,35,LRRK2-/SNCA-/GBA-,UnKnown,32,phase1,NA,No,Control
+488_V08,500000,2241,4804,0.4482,0.9608,488,V08,Healthy Control,NA,Female,White,34,LRRK2-/SNCA-/GBA-,UnKnown,29,phase1,NA,No,Control
+489_V08,500000,3130,5655,0.626,1.131,489,V08,Healthy Control,NA,Female,Black_or_African_American,33,LRRK2-/SNCA-/GBA-,UnKnown,25,phase1,NA,No,Control
+490_V08,500000,2833,6844,0.5666,1.3688,490,V08,Healthy Control,NA,Male,White,32,LRRK2-/SNCA-/GBA-,UnKnown,27,phase1,NA,No,Control
