@@ -1,3 +1,12 @@
+These bash scripts are designed to run on a cluster. In each step there is an "outer" script that runs and "internal" script on all the files simultaneusly.
+Normally, the running time is around three hours on a regular computer
+
+The output is files of aligned tRFs and miRs and csv files of counts and CPMs of both of these RNA types.
+Note that these scripts are designed for Homo sapiens. miRs can be adjusted to other spiscies but MINTmap currently doesnt have this option.
+
+The dependencies are detailed in the folder "ClusterStuff" with links to installation. Upon installation, the programs should be saved in one folder
+(in my case i saved all the programs in the folder "ClusterStuff" and the paths in the scripts folow this reasoning)
+Installation time is roughly a couple of hours on regular computers
 
 1. first QC
 sbatch --time=2-0:0:0 ADPD/TBI/1.1.fastQC_paralel.sh
