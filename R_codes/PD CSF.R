@@ -215,31 +215,3 @@ tmp<-data.frame(Ctrl=c(mean(colSums(cpm_trfs[rownames(cpm_trfs) %in% subset(meta
                                             colnames(cpm_trfs) %in% subset(cold1$ID,cold1$group=='PD')]))))
 rownames(tmp)<-c('No RGTTCRA','RGTTCRA motif')
 ch1<-chisq.test(tmp) ; ch1$p.value ; ch1$observed/ch1$expected #; ch1$observed ; ch1$expected
-
-# tSNE #####
-cts<-trfs ; cold1<-subset(t_cold,!t_cold$ADPD & t_cold$group!='AD' & t_cold$age>60)
-cold1<-subset(cold1,cold1$ID %in% colnames(cts)) ; cts<-cts[,as.character(cold1$ID)] 
-cts<-cts[,order(cold1$ID)] ; cold1<-cold1[order(cold1$ID),] ; nrow(cold1)==sum(cold1$ID==colnames(cts))
-y <- DGEList(counts=cts,group=cold1$group) ; keep <- filterByExpr(y) ; y <- y[keep, , keep.lib.sizes=FALSE]
-y$samples$lib.size <- colSums(y$counts) ; y <- calcNormFactors(y) ; t_tSNE<-as.data.frame(cpm(y,log = T))
-
-n<-ncol(t_tSNE) ; t_tSNE$tRF<-rownames(t_tSNE) ; t_tSNE<-merge(t_tSNE,meta_trfs,by.x='tRF',by.y='MINTbase.Unique.ID')
-t_tSNE$motifs<-F
-for(i in 1:nrow(t_tSNE)){t_tSNE$motifs[i]<-sum(str_count(as.character(t_tSNE$tRF.sequence[i]),as.character('GTTC[GA]A')))}
-t_tSNE$motifs<-factor(t_tSNE$motifs,levels=c(1,0),labels=c('RGTTCRA motif','No RGTTCRA'))
-t_tSNE$DE<-factor((as.numeric(t_tSNE$tRF %in% subset(t_sgGens$transcript,t_sgGens$FDR<0.1))+
-                     as.numeric(t_tSNE$tRF %in% subset(t_sgGens$transcript,t_sgGens$FDR<0.1 & t_sgGens$logFC>0))),
-                  labels = c('Not DE','Downregulated','Upregulated'))
-t_tSNE$CodonName<-unlist(lapply(t_tSNE$codon,function(x) as.character(as.vector(x)[1])))
-t_tSNE$fam<-unlist(lapply(t_tSNE$details,function(x) strsplit(as.character(x),'_')[[1]][1]))
-t_tSNE$nuclear<-factor(t_tSNE$fam %in% c('trnaMT','trnalookalike2','trnalookalike8'),labels=c('Nuclear','Non-nuclear'))
-t_tSNE$type<-gsub('half','tRF',t_tSNE$tRF.type.s.)
-t_tSNE$group<-factor(as.numeric(t_tSNE$motifs=='No RGTTCRA' & !t_tSNE$tRF.type.s. %in% c("3'-half","3'-tRF")),labels=c("3's or motif","5's"))
-t_tSNE$tmp<-as.numeric((t_tSNE$tRF.type.s. %in% c("5'-half","5'-tRF","i-tRF")) & (t_tSNE$motifs=='No RGTTCRA'))
-
-tmp<-subset(t_sgGens_loci$loci,t_sgGens_loci$FDR<0.051 & t_sgGens_loci$logFC>0)
-  
-tsne(t(t_tSNE[,2:n]),labels=interaction(t_tSNE$type))#+theme(legend.position = 'none')
-# ggsave(dir('tSNE type.svg'),device='svg')
-tsne(t(t_tSNE[,2:n]),labels=interaction(t_tSNE$group,t_tSNE$nuclear))
-# ggsave(dir('tSNE group and MT.svg'),device='svg')
