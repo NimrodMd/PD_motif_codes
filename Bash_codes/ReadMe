@@ -1,4 +1,4 @@
-These bash scripts are designed to run on a cluster. In each step there is an "outer" script that runs and "internal" script on all the files simultaneusly.
+These bash scripts are designed to run on a cluster. In each step there is an "outer" (paralel) script that runs and "internal" (in) script on all the files simultaneusly.
 Normally, the running time is around three hours on a regular computer
 
 The output is files of aligned tRFs and miRs and csv files of counts and CPMs of both of these RNA types.
