@@ -1,0 +1,4 @@
+All the R files have the library used in each of them at the first lines of the code.
+The file "0. Packages" enables quick installation via R studio of the needed packeges.
+
+The codes were used to produce the data and figures used for the paper and these can be used as a refrence output to make sure code ran correctly
